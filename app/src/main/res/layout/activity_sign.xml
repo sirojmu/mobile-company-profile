@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/main_background"
+    tools:context=".produk.Sign">
+
+    <Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:titleTextColor="@android:color/white"
+        android:background="#00ACC1">
+    </Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:text="@string/detail_sign"
+                android:layout_margin="5dp"/>
+            <TextView
+                android:layout_margin="5dp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold|italic"
+                android:gravity="center"
+                android:text="Tanda Tangan Digital (Digital Signature)"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <ImageView
+                android:layout_margin="5dp"
+                android:layout_gravity="center"
+                android:src="@drawable/peruri_digital_signature"
+                android:layout_width="250dp"
+                android:layout_height="190dp"/>
+            <com.codesgood.views.JustifiedTextView
+                android:layout_margin="5dp"
+                android:textColor="@android:color/black"
+                android:text="@string/deskripsi_sign"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

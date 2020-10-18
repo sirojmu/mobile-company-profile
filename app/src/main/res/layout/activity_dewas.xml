@@ -1,0 +1,799 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_background"
+    tools:context=".profil.Dewas">
+
+    <Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:titleTextColor="@android:color/white"
+        android:background="#00ACC1">
+    </Toolbar>
+
+    <androidx.core.widget.NestedScrollView
+        android:background="@drawable/main_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none"
+        android:clipToPadding="false">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/img_dirut"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/dewas3"/>
+
+                <TextView
+                    android:id="@+id/txt_dirut"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/img_dirut"
+                    android:text="Rizal A. Lukman"
+                    android:layout_marginTop="10dp"
+                    android:textSize="18sp"
+                    android:textColor="@android:color/black"
+                    android:gravity="center"/>
+                <TextView
+                    android:id="@+id/txtdirut"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/txt_dirut"
+                    android:text="Ketua Dewan Pengawas"
+                    android:textStyle="italic"
+                    android:textSize="15sp"
+                    android:textColor="@android:color/black"
+                    android:gravity="center"/>
+                <TextView
+                    android:id="@+id/biografidirut"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_below="@+id/txtdirut"
+                    android:text="Biografi: "
+                    android:textSize="15sp"
+                    android:textColor="@android:color/black"
+                    android:gravity="start"/>
+
+                <com.codesgood.views.JustifiedTextView
+                    android:id="@+id/profildirut"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/biografidirut"
+                    android:layout_margin="5dp"
+                    android:gravity="start"
+                    android:padding="3dp"
+                    android:textColor="@android:color/black"
+                    android:text="@string/profile_dewas3"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/txtjabatandirut"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_below="@+id/profildirut"
+                    android:text="Riwayat Jabatan: "
+                    android:textSize="15sp"
+                    android:textColor="@android:color/black"
+                    android:gravity="start"/>
+                <TableLayout
+                    android:layout_margin="5dp"
+                    android:layout_below="@+id/txtjabatandirut"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TableRow
+                        android:padding="3dp">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAlignment="center"
+                            android:textColor="@android:color/black"
+                            android:text="1." />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:textColor="@android:color/black"
+                            android:text="@string/jabatan_dewas3_1" />
+                    </TableRow>
+                    <TableRow
+                        android:padding="3dp">
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:textAlignment="center"
+                            android:textColor="@android:color/black"
+                            android:text="2." />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:textColor="@android:color/black"
+                            android:text="@string/jabatan_dewas3_2" />
+                    </TableRow>
+                    <TableRow
+                        android:padding="3dp">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAlignment="center"
+                            android:textColor="@android:color/black"
+                            android:text="3." />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:textColor="@android:color/black"
+                            android:text="@string/jabatan_dewas3_3" />
+                    </TableRow>
+                    <TableRow
+                        android:padding="3dp">
+                        <TextView
+                            android:layout_width="40dp"
+                            android:layout_height="wrap_content"
+                            android:textAlignment="center"
+                            android:textColor="@android:color/black"
+                            android:text="4." />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:textColor="@android:color/black"
+                            android:text="@string/jabatan_dewas3_4" />
+                    </TableRow>
+                    <TableRow
+                        android:padding="3dp">
+                        <TextView
+                            android:layout_width="40dp"
+                            android:layout_height="wrap_content"
+                            android:textAlignment="center"
+                            android:textColor="@android:color/black"
+                            android:text="5." />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:textColor="@android:color/black"
+                            android:text="@string/jabatan_dewas3_5" />
+                    </TableRow>
+                </TableLayout>
+
+            </RelativeLayout>
+              <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/img_dewas2"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/dewas2"/>
+
+                <TextView
+                    android:id="@+id/txt_dewas2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/img_dewas2"
+                    android:text="Sutanto"
+                    android:layout_marginTop="10dp"
+                    android:textSize="18sp"
+                    android:textColor="@android:color/black"
+                    android:gravity="center"/>
+                <TextView
+                    android:id="@+id/txtdewas2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/txt_dewas2"
+                    android:text="Anggota Dewan Pengawas"
+                    android:textStyle="italic"
+                    android:textSize="15sp"
+                    android:textColor="@android:color/black"
+                    android:gravity="center"/>
+                <TextView
+                    android:id="@+id/biografidewas2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_below="@+id/txtdewas2"
+                    android:text="Biografi: "
+                    android:textSize="15sp"
+                    android:textColor="@android:color/black"
+                    android:gravity="start"/>
+                <com.codesgood.views.JustifiedTextView
+                    android:id="@+id/profildewas2"
+                    android:padding="3dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_below="@+id/biografidewas2"
+                    android:textColor="@android:color/black"
+                    android:text="@string/profile_dewas2"
+                    android:textSize="14sp"
+                    android:gravity="start"/>
+                <TextView
+                    android:id="@+id/txtjabatandewas2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_below="@+id/profildewas2"
+                    android:text="Riwayat Jabatan: "
+                    android:textSize="15sp"
+                    android:textColor="@android:color/black"
+                    android:gravity="start"/>
+                <TableLayout
+                    android:layout_margin="5dp"
+                    android:layout_below="@+id/txtjabatandewas2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TableRow
+                        android:padding="3dp">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAlignment="center"
+                            android:textColor="@android:color/black"
+                            android:text="1." />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:textColor="@android:color/black"
+                            android:text="@string/jabatan_dewas2_1" />
+                    </TableRow>
+                    <TableRow
+                        android:padding="3dp">
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:textAlignment="center"
+                            android:textColor="@android:color/black"
+                            android:text="2." />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:textColor="@android:color/black"
+                            android:text="@string/jabatan_dewas2_2" />
+                    </TableRow>
+                    <TableRow
+                        android:padding="3dp">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAlignment="center"
+                            android:textColor="@android:color/black"
+                            android:text="3." />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:textColor="@android:color/black"
+                            android:text="@string/jabatan_dewas2_3" />
+                    </TableRow>
+                    <TableRow
+                        android:padding="3dp">
+                        <TextView
+                            android:layout_width="40dp"
+                            android:layout_height="wrap_content"
+                            android:textAlignment="center"
+                            android:textColor="@android:color/black"
+                            android:text="4." />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:textColor="@android:color/black"
+                            android:text="@string/jabatan_dewas2_4" />
+                    </TableRow>
+                    <TableRow
+                        android:padding="3dp">
+                        <TextView
+                            android:layout_width="40dp"
+                            android:layout_height="wrap_content"
+                            android:textAlignment="center"
+                            android:textColor="@android:color/black"
+                            android:text="5." />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:textColor="@android:color/black"
+                            android:text="@string/jabatan_dewas2_5" />
+                    </TableRow>
+                    <TableRow
+                        android:padding="3dp">
+                        <TextView
+                            android:layout_width="40dp"
+                            android:layout_height="wrap_content"
+                            android:textAlignment="center"
+                            android:textColor="@android:color/black"
+                            android:text="6." />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:textColor="@android:color/black"
+                            android:text="@string/jabatan_dewas2_6" />
+                    </TableRow>
+                    <TableRow
+                        android:padding="3dp">
+                        <TextView
+                            android:layout_width="40dp"
+                            android:layout_height="wrap_content"
+                            android:textAlignment="center"
+                            android:textColor="@android:color/black"
+                            android:text="7."/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:textColor="@android:color/black"
+                            android:text="@string/jabatan_dewas2_7" />
+                    </TableRow>
+                </TableLayout>
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/img_dewas4"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/dewas4"/>
+
+                <TextView
+                    android:id="@+id/txt_dewas4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/img_dewas4"
+                    android:text="Dwi Pranoto"
+                    android:layout_marginTop="10dp"
+                    android:textSize="18sp"
+                    android:textColor="@android:color/black"
+                    android:gravity="center"/>
+                <TextView
+                    android:id="@+id/txtdewas4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/txt_dewas4"
+                    android:text="@string/anggota_dewas"
+                    android:textStyle="italic"
+                    android:textSize="15sp"
+                    android:textColor="@android:color/black"
+                    android:gravity="center"/>
+                <TextView
+                    android:id="@+id/biografidewas4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_below="@+id/txtdewas4"
+                    android:text="Biografi: "
+                    android:textSize="15sp"
+                    android:textColor="@android:color/black"
+                    android:gravity="start"/>
+                <com.codesgood.views.JustifiedTextView
+                    android:id="@+id/profildewas4"
+                    android:padding="3dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:textColor="@android:color/black"
+                    android:layout_below="@+id/biografidewas4"
+                    android:text="@string/profile_dewas4"
+                    android:textSize="14sp"
+                    android:gravity="start"/>
+                <TextView
+                    android:id="@+id/txtjabatandewas4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_below="@+id/profildewas4"
+                    android:text="Riwayat Jabatan: "
+                    android:textSize="15sp"
+                    android:textColor="@android:color/black"
+                    android:gravity="start"/>
+                <TableLayout
+                    android:layout_margin="5dp"
+                    android:layout_below="@+id/txtjabatandewas4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TableRow
+                        android:padding="3dp">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAlignment="center"
+                            android:textColor="@android:color/black"
+                            android:text="1." />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:textColor="@android:color/black"
+                            android:text="@string/jabatan_dewas4_1" />
+                    </TableRow>
+                    <TableRow
+                        android:padding="3dp">
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:textAlignment="center"
+                            android:textColor="@android:color/black"
+                            android:text="2." />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:textColor="@android:color/black"
+                            android:text="@string/jabatan_dewas4_1" />
+                    </TableRow>
+                    <TableRow
+                        android:padding="3dp">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAlignment="center"
+                            android:textColor="@android:color/black"
+                            android:text="3." />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:textColor="@android:color/black"
+                            android:text="@string/jabatan_dewas4_1" />
+                    </TableRow>
+                    <TableRow
+                        android:padding="3dp">
+                        <TextView
+                            android:layout_width="40dp"
+                            android:layout_height="wrap_content"
+                            android:textAlignment="center"
+                            android:textColor="@android:color/black"
+                            android:text="4." />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:textColor="@android:color/black"
+                            android:text="@string/jabatan_dewas4_1" />
+                    </TableRow>
+                    <TableRow
+                        android:padding="3dp">
+                        <TextView
+                            android:layout_width="40dp"
+                            android:layout_height="wrap_content"
+                            android:textAlignment="center"
+                            android:textColor="@android:color/black"
+                            android:text="5." />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:textColor="@android:color/black"
+                            android:text="@string/jabatan_dewas4_1" />
+                    </TableRow>
+                    <TableRow
+                        android:padding="3dp">
+                        <TextView
+                            android:layout_width="40dp"
+                            android:layout_height="wrap_content"
+                            android:textAlignment="center"
+                            android:textColor="@android:color/black"
+                            android:text="6." />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:textColor="@android:color/black"
+                            android:text="@string/jabatan_dewas4_1" />
+                    </TableRow>
+                </TableLayout>
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/img_dewas1"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/dewas1"/>
+
+                <TextView
+                    android:id="@+id/txt_dewas1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/img_dewas1"
+                    android:text="M. Yusuf Ateh"
+                    android:layout_marginTop="10dp"
+                    android:textSize="18sp"
+                    android:textColor="@android:color/black"
+                    android:gravity="center"/>
+                <TextView
+                    android:id="@+id/txtdewas1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/txt_dewas1"
+                    android:text="Anggota Dewan Pengawas"
+                    android:textStyle="italic"
+                    android:textSize="15sp"
+                    android:textColor="@android:color/black"
+                    android:gravity="center"/>
+                <TextView
+                    android:id="@+id/biografidewas1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_below="@+id/txtdewas1"
+                    android:text="Biografi: "
+                    android:textSize="15sp"
+                    android:textColor="@android:color/black"
+                    android:gravity="start"/>
+                <com.codesgood.views.JustifiedTextView
+                    android:id="@+id/profildewas1"
+                    android:padding="3dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:textColor="@android:color/black"
+                    android:layout_below="@+id/biografidewas1"
+                    android:text="@string/profile_dewas1"
+                    android:textSize="14sp"
+                    android:gravity="start"/>
+                <TextView
+                    android:id="@+id/txtjabatandewas1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_below="@+id/profildewas1"
+                    android:text="Riwayat Jabatan: "
+                    android:textSize="15sp"
+                    android:textColor="@android:color/black"
+                    android:gravity="start"/>
+                <TableLayout
+                    android:layout_margin="5dp"
+                    android:layout_below="@+id/txtjabatandewas1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TableRow
+                        android:padding="3dp">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAlignment="center"
+                            android:textColor="@android:color/black"
+                            android:text="1." />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:textColor="@android:color/black"
+                            android:text="@string/jabatan_dewas1_1" />
+                    </TableRow>
+                    <TableRow
+                        android:padding="3dp">
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:textAlignment="center"
+                            android:textColor="@android:color/black"
+                            android:text="2." />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:textColor="@android:color/black"
+                            android:text="@string/jabatan_dewas1_2" />
+                    </TableRow>
+                    <TableRow
+                        android:padding="3dp">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAlignment="center"
+                            android:textColor="@android:color/black"
+                            android:text="3." />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:textColor="@android:color/black"
+                            android:text="@string/jabatan_dewas1_3" />
+                    </TableRow>
+                    <TableRow
+                        android:padding="3dp">
+                        <TextView
+                            android:layout_width="40dp"
+                            android:layout_height="wrap_content"
+                            android:textAlignment="center"
+                            android:textColor="@android:color/black"
+                            android:text="4." />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:textColor="@android:color/black"
+                            android:text="@string/jabatan_dewas1_4" />
+                    </TableRow>
+                </TableLayout>
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/img_dewas5"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/dewas5"/>
+
+                <TextView
+                    android:id="@+id/txt_dewas5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/img_dewas5"
+                    android:text="Djoko Hendratto"
+                    android:layout_marginTop="10dp"
+                    android:textSize="18sp"
+                    android:textColor="@android:color/black"
+                    android:gravity="center"/>
+                <TextView
+                    android:id="@+id/txtdewas5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/txt_dewas5"
+                    android:text="Anggota Dewan Pengawas"
+                    android:textStyle="italic"
+                    android:textSize="15sp"
+                    android:textColor="@android:color/black"
+                    android:gravity="center"/>
+                <TextView
+                    android:id="@+id/biografidewas5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_below="@+id/txtdewas5"
+                    android:text="Biografi: "
+                    android:textSize="15sp"
+                    android:textColor="@android:color/black"
+                    android:gravity="start"/>
+                <com.codesgood.views.JustifiedTextView
+                    android:id="@+id/profildewas5"
+                    android:padding="3dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_below="@+id/biografidewas5"
+                    android:textColor="@android:color/black"
+                    android:text="@string/profile_dewas5"
+                    android:textSize="14sp"
+                    android:gravity="start"/>
+                <TextView
+                    android:id="@+id/txtjabatandewas5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_below="@+id/profildewas5"
+                    android:text="Riwayat Jabatan: "
+                    android:textSize="15sp"
+                    android:textColor="@android:color/black"
+                    android:gravity="start"/>
+                <TableLayout
+                    android:layout_margin="5dp"
+                    android:layout_below="@+id/txtjabatandewas5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TableRow
+                        android:padding="3dp">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAlignment="center"
+                            android:textColor="@android:color/black"
+                            android:text="1." />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:textColor="@android:color/black"
+                            android:text="@string/jabatan_dewas5_1" />
+                    </TableRow>
+                    <TableRow
+                        android:padding="3dp">
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:textAlignment="center"
+                            android:textColor="@android:color/black"
+                            android:text="2." />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:textColor="@android:color/black"
+                            android:text="@string/jabatan_dewas5_2" />
+                    </TableRow>
+                    <TableRow
+                        android:padding="3dp">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAlignment="center"
+                            android:textColor="@android:color/black"
+                            android:text="3." />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:textColor="@android:color/black"
+                            android:text="@string/jabatan_dewas5_3" />
+                    </TableRow>
+                    <TableRow
+                        android:padding="3dp">
+                        <TextView
+                            android:layout_width="40dp"
+                            android:layout_height="wrap_content"
+                            android:textAlignment="center"
+                            android:textColor="@android:color/black"
+                            android:text="4." />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:textColor="@android:color/black"
+                            android:text="@string/jabatan_dewas5_4" />
+                    </TableRow>
+                    <TableRow
+                        android:padding="3dp">
+                        <TextView
+                            android:layout_width="40dp"
+                            android:layout_height="wrap_content"
+                            android:textAlignment="center"
+                            android:textColor="@android:color/black"
+                            android:text="5." />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:textColor="@android:color/black"
+                            android:text="@string/jabatan_dewas5_5" />
+                    </TableRow>
+                </TableLayout>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

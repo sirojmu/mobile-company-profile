@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    tools:context=".produk.Code">
+
+    <Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:titleTextColor="@android:color/white"
+        android:background="#00ACC1">
+    </Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textColor="@android:color/black"
+                android:text="@string/detail_code"/>
+            <TextView
+                android:layout_margin="5dp"
+                android:textColor="@android:color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="1. Secure 2D Code"/>
+            <TableLayout
+                android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <TableRow
+                android:padding="3dp">
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:text="@string/deskripsi" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/deskripsi_secure2D"
+                    android:textColor="@android:color/black" />
+            </TableRow>
+                <TableRow
+                    android:padding="3dp">
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:textColor="@android:color/black"
+                        android:text="@string/penerapan" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textStyle="bold|italic"
+                        android:text="@string/detail_penerapan"
+                        android:textColor="@android:color/black" />
+                </TableRow>
+                <TableRow
+                    android:padding="3dp">
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:textColor="@android:color/black"
+                        android:text="@string/manfaat" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textStyle="bold|italic"
+                        android:text="@string/detail_manfaat"
+                        android:textColor="@android:color/black" />
+                </TableRow>
+            </TableLayout>
+            <TextView
+                android:layout_margin="5dp"
+                android:textColor="@android:color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="2. Secure Quick Response Code (SQRC)"/>
+            <ImageView
+                android:layout_margin="5dp"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@drawable/sqrc"
+                android:layout_gravity="center"/>
+            <TableLayout
+                android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TableRow
+                    android:padding="3dp">
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:textColor="@android:color/black"
+                        android:text="@string/deskripsi" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/deskripsi_sqrc"
+                        android:textColor="@android:color/black" />
+                </TableRow>
+                <TableRow
+                    android:padding="3dp">
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:textColor="@android:color/black"
+                        android:text="@string/penerapan" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textStyle="bold|italic"
+                        android:text="@string/penerapan_sqrc"
+                        android:textColor="@android:color/black" />
+                </TableRow>
+                <TableRow
+                    android:padding="3dp">
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:textColor="@android:color/black"
+                        android:text="@string/manfaat" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textStyle="bold|italic"
+                        android:text="@string/manfaat_sqrc"
+                        android:textColor="@android:color/black" />
+                </TableRow>
+            </TableLayout>
+            <TextView
+                android:layout_margin="5dp"
+                android:textColor="@android:color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="3. Nano ID"/>
+            <ImageView
+                android:layout_margin="5dp"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@drawable/nano"
+                android:layout_gravity="center"/>
+            <TableLayout
+                android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TableRow
+                    android:padding="3dp">
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:textColor="@android:color/black"
+                        android:text="@string/deskripsi" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/deskripsi_nano"
+                        android:textColor="@android:color/black" />
+                </TableRow>
+                <TableRow
+                    android:padding="3dp">
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:textColor="@android:color/black"
+                        android:text="@string/penerapan" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textStyle="bold|italic"
+                        android:text="@string/penerapan_nano"
+                        android:textColor="@android:color/black" />
+                </TableRow>
+                <TableRow
+                    android:padding="3dp">
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:textColor="@android:color/black"
+                        android:text="@string/manfaat" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textStyle="bold|italic"
+                        android:text="@string/manfaat_nano"
+                        android:textColor="@android:color/black" />
+                </TableRow>
+            </TableLayout>
+            <TextView
+                android:layout_margin="5dp"
+                android:textColor="@android:color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="4. RFID"/>
+            <ImageView
+                android:layout_margin="5dp"
+                android:layout_width="200dp"
+                android:layout_height="150dp"
+                android:src="@drawable/rfid"
+                android:layout_gravity="center"/>
+            <TableLayout
+                android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TableRow
+                    android:padding="3dp">
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:textColor="@android:color/black"
+                        android:text="@string/deskripsi" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/deskripsi_rfid"
+                        android:textColor="@android:color/black" />
+                </TableRow>
+                <TableRow
+                    android:padding="3dp">
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:textColor="@android:color/black"
+                        android:text="@string/penerapan" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textStyle="bold|italic"
+                        android:text="@string/penerapan_rfid"
+                        android:textColor="@android:color/black" />
+                </TableRow>
+                <TableRow
+                    android:padding="3dp">
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:textColor="@android:color/black"
+                        android:text="@string/manfaat" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textStyle="bold|italic"
+                        android:text="@string/manfaat_rfid"
+                        android:textColor="@android:color/black" />
+                </TableRow>
+            </TableLayout>
+            <TextView
+                android:layout_margin="5dp"
+                android:textColor="@android:color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="5. Near Field Communication (NFC)"/>
+            <ImageView
+                android:layout_margin="5dp"
+                android:layout_width="200dp"
+                android:layout_height="150dp"
+                android:src="@drawable/nfc"
+                android:layout_gravity="center"/>
+            <TableLayout
+                android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TableRow
+                    android:padding="3dp">
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:textColor="@android:color/black"
+                        android:text="@string/deskripsi" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/deskripsi_nfc"
+                        android:textColor="@android:color/black" />
+                </TableRow>
+                <TableRow
+                    android:padding="3dp">
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:textColor="@android:color/black"
+                        android:text="@string/penerapan" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textStyle="bold|italic"
+                        android:text="@string/penerapan_nfc"
+                        android:textColor="@android:color/black" />
+                </TableRow>
+                <TableRow
+                    android:padding="3dp">
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:textColor="@android:color/black"
+                        android:text="@string/manfaat" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textStyle="bold|italic"
+                        android:text="@string/manfaat_nfc"
+                        android:textColor="@android:color/black" />
+                </TableRow>
+            </TableLayout>
+            <TextView
+                android:layout_margin="5dp"
+                android:textColor="@android:color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="6. Internet of Things (IoT)"/>
+            <ImageView
+                android:layout_margin="5dp"
+                android:layout_width="200dp"
+                android:layout_height="150dp"
+                android:src="@drawable/iot"
+                android:layout_gravity="center"/>
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textColor="@android:color/black"
+                android:text="@string/iot"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

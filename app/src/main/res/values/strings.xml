@@ -1,0 +1,828 @@
+<resources>
+    <string name="app_name">Company Profile</string>
+
+    <string name="next">Selanjutnya</string>
+    <string name="skip">Lewati</string>
+    <string name="start">Mulai</string>
+    <string name="slide_1_title">Profil</string>
+    <string name="slide_1_desc">
+        Informasi sejarah singkat Perum Peruri dari masa ke masa,
+        susunan Direksi dan Dewan Pengawas, Visi dan Misi, Tata Nilai, dan lainnya.
+    </string>
+
+    <string name="slide_2_title">Produk</string>
+    <string name="slide_2_desc">
+        Informasi produk berkualitas tinggi kebanggaan bangsa Indonesia dari Perum Peruri;
+        Uang, Logam Non-Uang, Kertas Berharga dan produk-produk digital security masa kini.
+    </string>
+
+    <string name="slide_3_title">Hubungan Investor</string>
+    <string name="slide_3_desc">
+        Informasi laporan tahunan dan laporan kondisi keuangan terkini Perum Peruri
+    </string>
+
+    <string name="slide_4_title">Bina Lingkungan</string>
+    <string name="slide_4_desc">
+        informasi tentang kegiatan Corporate Social Responsibility Perum Peruri
+    </string>
+
+
+    <string name="uang">Uang</string>
+    <string name="alamat">
+        Jl. Palatehan No. 4, Blok K-V, Kebayoran Baru, Jakarta 12160</string>
+    <string name="alamat_karawang">
+        Desa Parung Mulya, Kecamatan Ciampel, Karawang, Jawa Barat 41361</string>
+    <string name="email">
+        contact@peruri.co.id; info.digital@peruri.co.id</string>
+
+    <string name="sejarah_peruri">
+        Peruri didirikan berdasarkan Peraturan Pemerintah Nomor 60 Tahun 1971.
+        BUMN ini merupakan hasil peleburan (merger) antara Perusahaan Negara (PN) Arta Yasa dengan
+        PN Pertjetakan Kebayoran. Sesuai dengan PP 60 Tahun 1971 Pasal 3,
+        dinyatakan bahwa tujuan dan lapangan usaha Peruri adalah mencetak uang kertas dan
+        uang logam untuk Bank Indonesia (BI) dan mencetak barang-barang cetakan,
+        surat-surat berharga serta membuat barang-barang logam lainnya untuk pemerintah, BI,
+        Lembaga-lembaga Negara dan umum. Selain itu, ditegaskan pula bahwa Peruri
+        dapat menyelenggarakan usaha-usaha sampingan atas persetujuan Menteri Keuangan dengan
+        berpedoman kepada dasar-dasar dan prinsip-prinsip ekonomi yang rasionil.
+        Di dalam perkembangannya, pemerintah kemudian mengubah PP 60 Tahun 1971
+        menjadi yang paling terakhir yaitu PP 06 Tahun 2019 dengan pengaturan penugasan
+        seperti yang diatur di dalam Bagian Ketiga tentang Kegiatan dan Pengembangan Usaha Peruri,
+        yaitu selain menyelenggarakan usaha mencetak uang RI untuk memenuhi permintaan BI,
+        Peruri juga melaksanakan kegiatan mencetak dokumen sekuriti untuk negara,
+        yaitu dokumen keimigrasian, pita cukai, meterai dan dokumen pertanahan atas
+        permintaan instansi yang berwenang.
+        Selain produk di atas, Peruri juga mencetak dokumen sekuriti lainnya dan barang cetakan
+        logam non uang, mencetak uang dan dokumen sekuriti negara lain atas permintaan
+        negara yang bersangkutan. PP terbaru nomor 06 Tahun 2019 ini juga mengatur bahwa Peruri
+        dapat melakukan kegiatan usaha lainnya yang bertujuan untuk kemanfaatan umum berupa
+        penyediaan jasa digital sekuriti dan optimalisasi pemanfaatan potensi sumber daya
+        yang dimiliki (optimalisasi aset) sehingga hal ini dapat menjadi
+        pengembangan bisnis bagi Peruri.
+        Dalam peraturan tersebut disebutkan bahwa untuk mendukung pembiayaan dalam rangka
+        mencapai maksud dan tujuan perusahaan, Peruri dapat melakukan kerja sama usaha dengan
+        pihak lain, baik dalam negeri maupun luar negeri, membentuk anak perusahaan dan melakukan
+        penyertaan modal dalam badan usaha lain. Sejalan dengan PP 06 tersebut terkait dengan
+        pengembangan bisnis, Peruri telah memiliki 4 (empat) anak perusahaan masing-masing
+        PT Kertas Padalarang (PTKP) dengan kepemilikan 92,59 persen dengan portofolio bisnis
+        pada saat ini membuat kertas pita cukai dan jenis kertas sekuriti lainnya,
+        PT Peruri Wira Timur (PWT) dengan kepemilikan 76 persen dengan bidang usaha pencetakan
+        sekuriti non uang seperti ijasah, dokumen perizinan dan lainnya, PT Peruri Properti (PePro)
+        dengan kepemilikan 99 persen dengan bidang usaha optimalisasi aset properti Peruri,
+        PT Peruri Digital Security (PDS) dengan kepemilikan 99 persen dengan bidang usaha untuk
+        mendukung national payment gateway (NPG), card management system,
+        smart card dan personalization.
+        Selain itu Peruri juga mempunyai 1 (satu) perusahaan afiliasi PT Sicpa-Peruri Securink (SPS)
+        hasil kerjasama dengan Sicpa, SA (Swiss), kepemilikan 48 persen dengan bidang usaha
+        produksi tinta sekuriti untuk uang kertas. PT Peruri Digital Security (PDS)
+        sendiri telah memiliki 1 anak perusahaan yaitu PT Cardsindo Tiga Perkasa (CTP)
+        dengan kepemilikan 55 persen yang bergerak di bidang usaha produksi smart card
+        seperti contactless, RFID cards, contact smart cards, PVC cards dan produk lainnya.
+    </string>
+
+    <string name="aboutUs">
+        Di dalam perjalanan sejarahnya, Peruri mencatat beberapa milestone yang membawa nama Negara Kesatuan Republik Indonesia (NKRI) sebagai berikut: (i). Pada 1982, menjadi tuan rumah Konferensi Pencetakan Uang Logam Asia Tenggara (TEMAN, Technical Meeting of Mints in ASEAN); (ii). Pada 1983, menjadi tuan rumah Konferensi Pencetakan Uang Kertas Asia Pasifik ke-6 (PRBPC, Pacific Rim Banknote Printers Conference); (iii). Pada 1983, pemancangan tiang pertama pembangunan gedung pencetakan uang di Karawang oleh Menteri Keuangan; (iv). Pada 1994, mesin baru satu lini mulai beroperasi di Kawasan Produksi Peruri Karawang; (v). Pada 2003, penandatangan joint venture agreement (JVA) dengan SICPA, SA (Swiss), produsen tinta uang untuk membentuk perusahaan afiliasi dengan lokasi di Kawasan Produksi Peruri Karawang; (vi). Pada 2005, Presiden RI, Soesilo Bambang Yudhoyono meresmikan Kawasan Produksi Peruri di Karawang.
+        Selanjutnya Peruri masih mencatat beberapa milestone lain, baik terkait dengan corporate action maupun event internasional. Beberapa di  antaranya pada 2011 mendirikan anak perusahaan PWT dan PDS sedangkan pada 2012 mengakuisi PTKP dari status sebelumnya BUMN menjadi anak perusahaan Peruri.
+        Pada 2013, Peruri kembali menjadi tuan rumah PRBPC ke-20 setelah sebelumnya sukses menyelenggarakan event yang sama pada 1983. Demikian juga dengan konferensi TEMAN, kembali menjadi tuan rumah pada 2015 dengan peserta negara-negara ASEAN dan beberapa negara Eropa, Asia lainnya, Amerika Serikat dan Kanada. Pada 2014, Peruri ditetapkan sebagai BUMN dengan kategori Objek Vital Nasional sektor industri sesuai Keputusan Menteri Perindustrian Nomor 466/M-IND/Kep/8/2014. Pada 2014 juga, Peruri menambah gedung untuk mesin satu lini uang kertas di Karawang.
+        Menyadari bahwa lingkungan bisnis terus berubah, akhir 2014 manajemen Peruri mencanangkan program transformasi perusahaan dengan membaginya ke dalam 4 (empat) tahapan, yaitu transformasi sumber daya manusia (SDM), bisnis, struktur dan sistem serta kultur/budaya. Transformasi perusahaan dipandang sangat penting untuk menggugah dan mengajak karyawan segera berubah dari kondisi comfort zone menuju ke dynamic zone yang lebih kompetitif. Transformasi SDM menjadi pilihan utama untuk dijalankan karena jika kualitas SDM baik secara skill, kompetensi maupun semangatnya maka transformasi lainnya akan berjalan dengan baik pula.  Sejauh ini skill dan kompetensi SDM cukup memadai untuk menjalankan bisnis security printing sesuai amanat PP 06 Tahun 2019 dimaksud tetapi menyongsong berlakunya Masyarakat Ekonomi Asean (MEA), kompetensi "cukup" saja masih kurang. Dalam era persaingan yang ketat, kompetensi yang dimiliki harus yang terbaik. Oleh karena itu langkah yang perlu dilakukan adalah merubah mind set dan mendorong terjadinya paradigm shift agar seluruh insan Peruri lebih fokus kepada customer, concern terhadap kepentingan pemilik modal untuk menjalankan perusahaan dengan prinsip-prinsip good corporate governance. Intinya adalah perusahaan ini harus dioperasikan dengan spirit yang tinggi, karakter yang tangguh dan strategi yang tepat.
+        Transformasi bisnis adalah langkah berikutnya yang menjadi fokus manajemen dengan dasar business road map 4 (empat) Pilar dan 5 (lima) Inisiatif Strategi. Empat Pilar itu terdiri dari pengembangan core business berupa portofolio uang, non uang (pita cukai, paspor, buku tanah, meterai dan dokumen sekuriti lainnya) yang harus secara terus menerus mampu mengadaptasi berbagai perkembangan fitur sekuriti, trend teknologi yang sesuai kebutuhan pelanggan, new wave berupa pengembangan digital business dan non core dalam bentuk optimalisasi aset properti agar produktif. Empat Pilar itu dilengkapi dengan 5 (lima) Insisiatif Strategi, yaitu pengembangan core business, new wave, non core yang didukung oleh pengelolaan dengan didasarkan kepada prinsip-prinsip compliance dan good corporate governance (GCG) serta transformasi perusahaan berkelanjutan.
+        Transformasi struktur dan sistem merupakan langkah yang harus selalu sejalan dengan transformasi SDM dan bisnis karena perubahan yang terjadi, perlu dilengkapi dengan  business process re-engeenering yang konsisten. Manajemen Peruri sangat menyadari bahwa penataan struktur dan sistem merupakan point penting untuk dilaksanakan karena itu akan menjadi bagian tidak terpisahkan dari berjalannya fungsi compliance dan GCG. Pada akhirnya dengan struktur dan sistem yang baik maka akan terbentuk kultur/budaya yang baik pula.
+        Transformasi kultur/budaya pada dasarnya merupakan kristalisasi nilai-nilai yang sifatnya inovatif, yaitu muncul iklim kerja dengan toleransi tinggi/kritis, semangat kerja sama tim tinggi, kejelasan pekerjaan tinggi, semangat kompetensi tinggi, terbuka dan pro-aktif, lebih transparan, informasi lebih terbuka, komunikasi lebih efektif dan kaya dengan pemberdayaan dalam konteks learning organization yang sehat. Terkait dengan kristalisasi nilai-nilai yang sejalan dengan transformasi perusahaan, manajemen perusahaan mengharapkan munculnya SDM yang mempunyai spirit, karakter, integritas, antusias, totalitas dan strategi yang hebat. Nilai-nilai yang ditanamkan di dalam transformasi bisnis, manajemen menekankan agar karyawan mempunyai loyalitas dan komitmen  kepada pekerjaannya, fokus kepada customer, giat melakukan modernisasi alat kerja dan siap melakukan restrukturisasi bisnis agar lebih kompetitif di pasar. Terkait dengan nilai-nilai dari transformasi struktur dan sistem, manajemen memutuskan bahwa Peruri harus bekerja dengan dasar sistem information technology (IT) yang governance agar dapat bekerja dengan cepat, tepat, efisien dengan dilandasi knowledge management yang baik.</string>
+    <string name="makna">Logo Perum Peruri Mempunyai makna :</string>
+    <string name="makna_logo">Makna Logo</string>
+
+    <string name="uraian_logo1">
+        Logo PERURI merupakan cerminan dari brand essence PERURI yakni “smart security” disimbolkan melalui perwujudan ikon grafis dari saraf-saraf penglihatan retina/iris; </string>
+    <string name="uraian_logo2">
+        Iris mata atau selaput pelangi mata yang memiliki garis-garis halus merupakan salah satu biometrik manusia dimana setiap orang memiliki garis-garis yang berbeda antara satu dan lainnya. Biometrik iris saat ini digunakan dalam Digital Security sebagai pengaman yang sangat tinggi. Logo PERURI mengambil filosofi iris mata ini sebagai dasar “Smart Security”;</string>
+    <string name="uraian_logo3">
+        Penggunaan simbol mata juga melambangkan jendela kecerdasan manusia, sementara pusat iris menggarisbawahi visi PERURI sebagai perusahaan kelas dunia;</string>
+    <string name="uraian_logo4">
+        Penyusunan grafis yang asimetris ingin mewujudkan kesan kedinamisan usaha maupun pelaku usaha PERURI dalam menjawab tantangan di depan mata;</string>
+    <string name="uraian_logo5">
+        Iris PERURI yang tidak penuh melingkar menandakan bahwa tidak semua sistem pengamanan harus kasat mata, kecerdasan terletak pada sistem pengaman yang tidak terlihat mata;</string>
+    <string name="uraian_logo6">
+        Warna logo biru menggambarkan teknologi dan kecerdasan. Objek dengan tonalitas warna biru dapat pula mencerminkan ketentraman, kepercayaan serta keyakinan;</string>
+    <string name="uraian_logo7">
+        Warna putih sebagai tonalitas netral dan bisa menyatukan beberapa karakter, selain itu dekat dengan karakter jujur, kebersihan dan kebaikan;</string>
+    <string name="uraian_logo8">
+        Warna tonalitas abu-abu sering dikaitkan dengan keamanan, kualitas dan profesionalisme serta keseriusan dalam melakukan sesuatu.</string>
+
+    <string name="profile_dirut">
+        Lahir di Salatiga pada 8 September 1965\n
+        Meraih Gelar Sarjana (S1) Teknik Sipil dan Perencanaan di Institut Teknologi Bandung, Indonesia (1989);\n
+        Meraih Gelar Magister (S2) di Trium Emba Program, New York University, USA (1993);\n
+        London School of Economics (LSE), UK; HEC School of Management in Paris, France (2009).</string>
+
+    <string name="jabatandirut1">
+        Direktur Utama (November 2017–sekarang);</string>
+    <string name="jabatandirut2">
+        Staf Khusus Menteri BUMN (Juli 2017–November 2017);</string>
+    <string name="jabatandirut3">
+        Direktur Utama– PT Bahana Pembinaan Usaha Indonesia (Persero) (2013–2017);</string>
+    <string name="jabatandirut4">
+        Direktur Keuangan– PT Bahana Pembinaan Usaha Indonesia (2009–2013);</string>
+    <string name="jabatandirut5">
+        Direktur Utama– PT Bahana TCW Investment Management (2003–2009);</string>
+    <string name="jabatandirut6">
+        Direktur Investasi– PT Bahana TCW (2002–2003);</string>
+    <string name="jabatandirut7">
+        Manajer Portofolio– PT Bahana TCW (1994–2000);</string>
+    <string name="jabatandirut8">
+        Manajer Risiko Pengelolaan Dana– PT Bank Niaga,Jakarta (1990–1994).</string>
+
+    <string name="profile_dirops">
+        Lahir di Cilacap pada 19 Maret 1971\n
+        Meraih gelar Diploma III (D3) Akuntansi Fakultas Ekonomi, Universitas Diponegoro (1994);\n
+        Gelar Sarjana Strata Satu (S1) Manajemen Fakultas Ekonomi, Universitas Diponegoro (2001);\n
+        Gelar Magister Manajemen, Institut Pertanian Bogor (2013).</string>
+    <string name="jabatandirops1">
+        Direktur Operasi (November 2017–sekarang);</string>
+    <string name="jabatandirops2">
+        Direktur Utama PT Balai Pustaka (Persero) (2012–2017);</string>
+    <string name="jabatandirops3">
+        Direktur Operasional dan Komersial PT Balai Pustaka (Persero) (2010–2012);</string>
+    <string name="jabatandirops4">
+        Marketing Corporate Penerbit Grafindo Media Pratama (2008-2010);</string>
+    <string name="jabatandirops5">
+        Direktur Utama PT Widya Pustaka (Ganeca Exact Group) (2006–2008);</string>
+    <string name="jabatandirops6">
+        Direktur Pemasaran Penerbit dan Percetakan Ganeca Exact Group (2002);</string>
+    <string name="jabatandirops7">
+        Marketing Manager Penerbit dan Percetakan Aneka Ilmu (1996-2002).</string>
+
+    <string name="profile_dirkeu">
+        Lahir di Klaten, 23 September 1963\n
+        Meraih Gelar Sarjana (S1) Kehutanan di Institut Pertanian Bogor, Indonesia (1986).</string>
+    <string name="jabatandirkeu1">
+        Direktur Keuangan (Maret 2020-sekarang);</string>
+    <string name="jabatandirkeu2">
+        Direktur SDM dan Umum Peruri (Juli 2018–Maret 2020);</string>
+    <string name="jabatandirkeu3">
+        Head of Improvement Project Human Capital Bank Mandiri (2018);</string>
+    <string name="jabatandirkeu4">
+        Executive Business Officer Special Asset Management Bank Mandiri (2017);</string>
+    <string name="jabatandirkeu5">
+        Group Head Mandiri University (2015–2017);</string>
+    <string name="jabatandirkeu6">
+        Group Head Jakarta Commercial Sales Bank Mandiri (2003–2009).</string>
+
+    <string name="profile_dirsdm">
+        Lahir pada 31 Agustus 1965.\n
+        Meraih Gelar Sarjana (S1) Teknik Elektro di Institut Teknologi Bandung, Indonesia (1990).\n
+        Meraih Gelar Master (S2) Manajemen di Sekolah Tinggi Manajemen PPM, Jakarta, Indonesia (2008).</string>
+    <string name="jabatandirsdm1">
+        Direktur SDM dan Umum (Maret 2020-sekarang);</string>
+    <string name="jabatandirsdm2">
+        Senior Vice President Head Corporate HR dan GA PT IBS Group (2018-2020);</string>
+    <string name="jabatandirsdm3">
+        Kepala Divisi SDM Peruri (2015-2018);</string>
+    <string name="jabatandirsdm4">
+        Head HR, GA, Legal dan Regional Head Jawa Barat dan Sumatera Aora TV (2013-2014);</string>
+    <string name="jabatandirsdm5">
+        Tenaga Profesional Pendamping di Peruri (2013);</string>
+    <string name="jabatandirsdm6">
+        Advisor, HR dan Pengembangan Bisnis BSPI Foundation (2011-2013);</string>
+    <string name="jabatandirsdm7">
+        Group Head of Human Capital PT Indosat Tbk (2007-2011).</string>
+
+    <string name="profile_dirpeng">
+        Lahir di Jakarta, 15 Juli 1968\n
+        Meraih Gelar Sarjana (S1) Ekonomi Manajemen di Universitas Pancasila, Indonesia (1993).\n
+        Meraih Gelar Master (S2) Magister Manajemen di Sekolah Tinggi Manajemen PPM, Jakarta (2008).</string>
+    <string name="jabatandirpeng1">
+        Direktur Pengembangan Usaha (Juli 2018–sekarang);</string>
+    <string name="jabatandirpeng2">
+        Kepala Divisi Pengelolaan Aset dan Anak Perusahaan Peruri (Mei 2018–Juli 2018);</string>>
+    <string name="jabatandirpeng3">
+        Kepala Divisi Keuangan dan Akuntansi Peruri (2014–2017);</string>
+    <string name="jabatandirpeng4">
+        Kepala Departemen Keuangan Peruri (2013).</string>
+
+    <string name="nama_dirut">Dwina S. Wijaya</string>
+    <string name="nama_dirops">Saiful Bahri</string>
+    <string name="nama_dirkeu">Winarsih Budiriani</string>
+    <string name="nama_dirsdm">Gandung A. Murdani</string>
+    <string name="nama_dirpeng">Fajar Rizky</string>
+
+    <string name="padalarang">
+        PT. Kertas Padalarang (PTKP) didirikan pada tanggal 22 Mei 1922 dengan nama NV Papier Fabriek Padalarang yang merupakan cabang dari NV. Papier Fabriek Nijmegen di negeri Belanda. Pabrik ini merupakan pabrik kertas pertama di Indonesia.
+        Produk utama PTKP adalah kertas sekuritas. Dari tiga unit mesin yang dimilikinya, dua diantaranya merupakan mesin kertas sekuritas. Berbekal SK Mentri Keuangan No. S - 1334 / MK 013 / 1990 tanggal 30 Oktober 1990yang menyatakan bahwa PTKP yang bersifat oligopoli mempunyai peluang untuk bersaing di tingkat dunia. Walaupun PTKP belum memproduksi kertas uang, akan tetapi PTKP telah memiliki kewenangan dari pemerintah RI untuk dapat memproduksi kertas sekuritas dan kertas uang.
+    </string>
+
+    <string name="pds">
+        Perkembangan teknlogi informasi yang sangat pesat berdampak pada perubahan yang luar biasa terhadap pola transaksi dan pengelolaan  informasi pribadi. Peruri sebagai percetakan uang kertas dan dokumen berharga tidak terlepas dari dampak global  transformasi  produk  yang mengarah  pada solusi teknologi informasi seperti e-Authentication, e-Identity, e-Payment, Data Center, Service dan IT Solution.
+        Berdasarkan  Akta  Notaris  No.  22  tanggal 15  September  2011 yang  bertepatan dengan 40 tahun Peruri, maka dibentuklah PT. Peruri Digital Security (PDS).
+        Keamanan  dokumen,  surat-surat  berharga, transaksi keuangan, serta ancaman cyber crime adalah amanah  bangsa. Oleh karena itu, Peruri Digital Security  tidak dapat hanya mengejar laba dari kinerja bisnis semata namun wajib menjaga kepercayaan masyarakat karena Peruri Digital Security  diberi wewenang melakukan  berbagai kiat digital  untuk memberantas pemalsuan dokumen, surat  berharga  maupun  data diri kliennya. Walaupun perusahaan  secara  legal baru  dibentuk tahun 2011 yang lalu, namun pengalaman, keahlian  serta  reputasi induk perusahaannya yaitu Peruri menjadi jaminan integritas, serta kemapanan bisnis ini.
+    </string>
+
+    <string name="property">
+        PT Peruri Properti (PePro) didirikan berdasarkan Akta Nomor: 01 tanggal 10 April 2012 dan
+        mendapatkan pengesahan dari Menteri Hukum dan HAM RI dengan Nomor: AHU-22461.AH.01.01 Tahun 2012 pada 27 April 2012.
+        PePro didirikan dengan maksud dan tujuan untuk melakukan kegiatan di bidang pengembangan lahan dan jasa properti serta perdagangan.
+        Bisnis PePro pada tahap awal berfokus pada hal-hal yang berkaitan dengan pengembangan lahan Peruri di Pelatehan.
+        Ke depan lingkup bisnis juga diarahkan pada aset lahan Peruri lainnya dan bisnis non-lahan Peruri lainnya sepanjang sesuai dengan bidang usaha.
+    </string>
+    Rencana bisnis PePro di antaranya adalah:
+
+    <string name="bisnis1">
+         Mengembangkan aset lahan Peruri, prioritas aset lahan di Pelatehan, pengembangan lahan menjadi hotel, pusat perbelanjaan/retail/meeting point, gedung kantor, apartemen, gedung pertemuan dan cagar budaya atau museum.
+     </string>
+
+    <string name="bisnis2">
+        Mengelola gedung yang dibangun melalui skema sewa dan/atau strata title serta bekerja sama dengan mitra strategis.
+    </string>
+
+    <string name="bisnis3">
+        Melakukan jasa pemeliharaan gedung-gedung dan infrastruktur dengan prioritas gedung-gedung pada aset lahan Pelatehan.
+    </string>
+
+    <string name="bisnis4">
+        Menawarkan jasa manajemen konstruksi pada saat pembangunan gedung atau infrastruktur.
+    </string>
+
+    <string name="bisnis5">
+        Melakukan usaha perdagangan barang/peralatan terkait dengan pengembangan aset lahan dan lain-lain.
+    </string>
+
+    <string name="timur">
+        PT. Peruri Wira Timur adalah sebuah perusahaan bergerak di bidang pencetakan dokumen dan produk sekuriti yang terkemuka berlokasi di Surabaya Jawa Timur.
+        Kami mengedepankan kualitas dengan menanamkan pengaman pada dokumen sehingga tidak bisa dipalsukan.
+    </string>
+
+    <string name="smartcard">
+        Berdiri sejak 2012, PT Cardsindo Tiga Perkasa merupakan anak perusahaan PT Jasuindo Tiga Perkasa Tbk. yang fokus bergerak di bidang telekomunikasi. Pada 2018 Peruri Digital Security mengakuisisi 55% saham untuk mengembangkan bisnis perusahaan di bidang smart card yaitu: kartu perbankan, kartu RFID, proses fullfillment serta one stop solution service.
+        Visi Peruri Smart Card selalu memberikan solusi terbaik kepada pelanggan dengan cara meningkatkan kualitas serta selalu mengikuti perkembangan teknologi baru sesuai kebutuhan pasar dunia. Misi perusahaan adalah selalu meningkatkan hubungan kerja yang lebih baik dengan semua mitra bisnis kam
+    </string>
+
+    <string name="tentangkemitraan">
+        Program Kemitraan merupakan bentuk tanggungjawab sosial BUMN berupa pemberian pinjaman modal dan pembinaan terhadap usaha kecil untuk meningkatkan kemampuannya agar menjadi tangguh dan mandiri.
+    </string>
+
+    <string name="pedoman_pkbl1">
+        PER-09/MBU/07/2015 tanggal 3 Juli 2015 tentang Program Kemitraan dan Program Bina Lingkungan Badan Usaha Milik Negara</string>
+    <string name="pedoman_pkbl2">
+            Surat Keputusan Direksi Peruri Nomor: KEP-8/X/2015 tanggal 1 Oktober 2015 tentang Prosedur Operasional Program Kemitraan dan Program Bina Lingkungan (SOP PKBL)
+    </string>
+
+    <string name="syarat_umkm1">
+        Memiliki kekayaan bersih paling banyak Rp500.000.000 (lima ratus juta rupiah) tidak termasuk tanah dan bangunan tempat usaha, atau memiliki hasil penjualan tahunan paling banyak Rp2.500.000.000 (dua miliar lima ratus juta rupiah);</string>
+    <string name="syarat_umkm2">
+        Milik Warga Negara Indonesia;</string>
+    <string name="syarat_umkm3">
+        Berdiri sendiri, bukan merupakan anak perusahaan atau cabang perusahaan yang dimiliki, dikuasai, atau berafiliasi baik langsung maupun tidak langsung dengan Usaha Menengah atau Usaha Besar;</string>
+    <string name="syarat_umkm4">
+        Berbentuk usaha perseorangan, badan usaha yang tidak berbadan hukum, atau badan usaha yang berbadan hukum, termasuk usaha mikro dan koperasi;</string>
+    <string name="syarat_umkm5">Mempunyai potensi dan prospek usaha untuk dikembangkan;</string>
+    <string name="syarat_umkm6">
+        Telah melakukan kegiatan usaha minimal 1 tahun;</string>
+    <string name="syarat_umkm7">
+        Belum memenuhi persyaratan perbankan (non bankable).</string>
+
+    <string name="kewajiban_peserta1">
+        Melaksanakan kegiatan usaha sesuai dengan rencana dan/atau proposal yang menjadi dasar pemberian pinjaman;</string>
+    <string name="kewajiban_peserta2">
+        Membayar kembali pinjaman secara tepat waktu sesuai dengan perjanjian yang telah disepakati;</string>
+    <string name="kewajiban_peserta3">
+        Menyampaikan laporan perkembangan usaha secara periodik sesuai dengan perjanjian.
+    </string>
+
+    <string name="note_pkbl">
+        Berdasarkan PER-09/MBU/07/2015, besarnya jasa administrasi pinjaman dana Program Kemitraan ditetapkan sebesar 6% per tahun dari saldo pinjaman.
+        Jumlah Pinjaman yang dapat diberikan untuk Mitra Binaan maksimum sebesar Rp75.000.000 (tujuh puluh lima juta rupiah).
+    </string>
+
+    <string name="tentangbinalingkungan">
+        Program Bina Lingkungan merupakan wujud tanggungjawab sosial yang dilakukan Peruri
+        dalam rangka meningkatkan kondisi sosial masyarakat, terutama bagi masyarakat di sekitar wilayah Perusahaan.
+    </string>
+
+    <string name="pedomanbinalingkungan1">
+        PER-09/MBU/07/2015 tanggal 3 Juli 2015 tentang Program Kemitraan dan Program Bina Lingkungan Badan Usaha Milik Negara
+    </string>
+    <string name="pedomanbinalingkungan2">
+        Surat Keputusan Direksi Peruri Nomor: KEP-8/X/2015 tanggal 1 Oktober 2015 tentang Prosedur Operasional Program Kemitraan dan Program Bina Lingkungan (SOP PKBL)
+    </string>
+
+    <string name="jenisbantuan1">
+        Bantuan korban bencana alam;</string>
+    <string name="jenisbantuan2">
+        Bantuan pendidikan dan/atau pelatihan;</string>
+    <string name="jenisbantuan3">
+        Bantuan peningkatan kesehatan;</string>
+    <string name="jenisbantuan4">
+        Bantuan pengembangan prasarana dan/atau sarana umum;</string>
+    <string name="jenisbantuan5">
+        Bantuan sarana ibadah;</string>
+    <string name="jenisbantuan6">
+        Bantuan pelestarian alam;</string>
+    <string name="jenisbantuan7">
+        Bantuan sosial kemasyarakatan dalam rangka pengentasan kemiskinan;</string>
+    <string name="jenisbantuan8">
+        Bantuan pendidikan, pelatihan, pemagangan, pemasaran, promosi dan bentuk bantuan lain yang terkait dengan upaya peningkatan kapasitas Mitra Binaan Program Kemitraan
+    </string>
+
+    <string name="tanggungjawabpenerima1">
+        Memanfaatkan dana bantuan sesuai dengan permohonan yang disetujui</string>
+    <string name="tanggungjawabpenerima2">
+        Menyampaikan laporan hasil penggunaan dana dengan mengisi formulir Laporan Penerimaan Dana Bantuan Program Bina Lingkungan, disertai dengan foto kegiatan atau objek bantuan setelah dibantu
+    </string>
+
+    <string name="caramengajukan1">
+        Data pemohon (perorangan, masyarakat, kelompok, lembaga atau panitia);</string>
+    <string name="caramengajukan2">
+        Data kegiatan atau spesifikasi objek bantuan yang diminta;</string>
+    <string name="caramengajukan3">
+        Data progress kegiatan atau objek bantuan;</string>
+    <string name="caramengajukan4">
+        Rencana kebutuhan dana untuk kegiatan atau objek bantuan;</string>
+    <string name="caramengajukan5">
+        Alamat dan denah lokasi pemohon.
+    </string>
+    <string name="surat_bantuan">Pemohon mengajukan permohonan bantuan berupa proposal atau surat yang memuat:</string>
+
+    <string name="profile_dewas3">
+        Lahir di Bandung pada 12 Juli 1961.
+        Meraih gelar Sarjana Strata Satu (S1) Teknik Industri di Institut Teknologi Bandung, Indonesia (1986). Gelar Magister di International Relations Program, International University of Japan, Niigata, Japan (1993)
+        dan gelar doktor di International Development, Nagoya University, Japan (2000).
+    </string>
+
+    <string name="jabatan_dewas3_1">
+        Deputy Minister for International Economic Cooperation, Coordinating Ministry for Economic Affairs (2010 – sekarang);
+    </string>
+    <string name="jabatan_dewas3_2">
+        Acting Deputy Minister for International Economic Cooperation and Director for Multilateral Economic and Financial Cooperation, Coordinating Ministry for Economic Affairs (2010);
+    </string>
+    <string name="jabatan_dewas3_3">
+        Assistant to 6th President of the Republic of Indonesia Private Secretary, Presidential Palace Office (2008 – 2009);
+    </string>
+    <string name="jabatan_dewas3_4">
+           Director for Asia Economic and Financial Cooperation, Coordinating Ministry for Economic Affairs (2001 – 2005);
+    </string>
+    <string name="jabatan_dewas3_5">
+            Director for Bilateral Economic Cooperation, Coordinating Ministry for Economic Affairs (2001 – 2005).
+    </string>
+
+    <string name="profile_dewas2">
+        Lahir di Karanganyar pada 20 Desember 1963.\n
+        Alumni Akademi Kepolisian pada 1988\n
+        Alumni Perguruan Tinggi Ilmu Kepolisian pada 1995\n
+        Alumni Sekolah Pimpinan Kepolisian RI pada 2004\n
+        Alumni Lembaga Ketahanan Nasional RI pada 2015\n
+    </string>
+
+    <string name="jabatan_dewas2_1">
+        Staf Ahli Bidang Hukum dan Hak Asasi Manusia Badan Intelijen Negara / Kalakhar Botasupal (2018-Sekarang)
+    </string>
+    <string name="jabatan_dewas2_2">
+        Direktur Kontra Infiltrasi dan Sabotase Deputi III BIN (2015-2018)</string>
+    <string name="jabatan_dewas2_3">
+        Direktur Intelkam Polda Metro Jaya (2013-2015)</string>
+    <string name="jabatan_dewas2_4">
+        Karo Ops Polda Maluku (2011-2013)</string>
+    <string name="jabatan_dewas2_5">
+        Direktur Intelkam Polda Bangka Belitung (2008-2010)</string>
+    <string name="jabatan_dewas2_6">
+        Kapolres Bangka Polda Bangka Belitung (2007-2008)</string>
+    <string name="jabatan_dewas2_7">
+            Kapolres Bangka Tengah Polda Bangka Belitung (2005-2007)
+    </string>
+    <string name="anggota_dewas">Anggota Dewas Pengawas</string>
+
+    <string name="profile_dewas4">
+        Lahir di Jakarta pada 26 Oktober 1963.\n
+        Meraih gelar Sarjana Strata Satu (S1) Teknik Industri di Institut Teknologi Bandung (ITB), Indonesia (1986)\n
+        Meraih gelar S2 Master in Business Management di Asian Institute of Management (AIM), Philippines (1993).\n
+        Mengikuti berbagai Executive Program di The Wharton School, London Business School, INSEAD, Columbia Business School, dan Harvard Business School.
+    </string>
+    <string name="jabatan_dewas4_1">
+        2019 – sekarang, Direktur Eksekutif, Kepala Departemen Regional, Bank Indonesia
+    </string>
+
+    <string name="jabatan_dewas4_2">
+        2014 – 2019, Direktur Eksekutif, Kepala Departemen Regional II – Jawa, Bank Indonesia
+    </string>
+
+    <string name="jabatan_dewas4_3">
+        2012 – 2014, Direktur Eksekutif, Kepala Perwakilan Bank Indonesia Wilayah IV (Jawa Timur, 2013-2014) dan Kepala Perwakilan Bank Indonesia Wilayah III (Bali Nusa Tenggara, 2012-2013)
+    </string>
+
+    <string name="jabatan_dewas4_4">
+        2010 – 2012, Direktur Eksekutif, Kepala Unit Khusus Manajemen Informasi/ Departemen Pengelolaan Sistem Informasi, Bank Indonesia
+    </string>
+
+    <string name="jabatan_dewas4_5">
+        2006 – 2010, Direktur Departemen Sumber Daya Manusia, Bank Indonesia (2007-2010) dan Direktur Departemen Pengelolaan Uang, Bank Indonesia (2006-2007)
+
+    </string>
+
+    <string name="jabatan_dewas4_6">
+        2002 – 2006, Deputi Direktur (Kepala Divisi) Office of the Governor/ Departemen Manajemen Strategis dan Tata Kelola, Bank Indonesia
+    </string>
+
+    <string name="profile_dewas1">
+        Lahir di Jakarta pada 9 Agustus 1964.\n
+        Meraih gelar Diploma III Business Administration di Sekolah Tinggi Akuntansi Negara (1986);\n
+        Meraih gelar Diploma IV Akuntansi di Sekolah Tinggi Akuntansi Negara (1992);\n
+        Meraih gelar Master (S2) Business Administration di University of Adelaide, Australia (2001).
+    </string>
+    <string name="jabatan_dewas1_1">
+        Deputi Bidang Reformasi Birokrasi, Akuntabilitas Aparatur, dan Pengawasan, Kementerian Pendayagunaan Aparatur Negara dan Reformasi Birokrasi (PAN dan RB) (2013 - sekarang);
+    </string>
+    <string name="jabatan_dewas1_2">
+        Deputi Bidang Pengawasan dan Akuntabilitas Aparatur, Kementerian PAN dan RB (2013);
+    </string>
+    <string name="jabatan_dewas1_3">
+        Inspektur pada Kementerian PAN dan RB (2010 - 2013);
+    </string>
+    <string name="jabatan_dewas1_4">
+        Kepala Bidang Pemantauan dan Evaluasi Akuntabilitas Kinerja Aparatur Wilayah Timur II, Deputi Bidang Akuntabilitas Aparatur, Kementerian PAN dan RB (2009 - 2010).
+    </string>
+
+    <string name="profile_dewas5">
+        Lahir di Surakarta pada 14 November 1961.\n
+        Meraih gelar Sarjana Ekonomi Pembangunan dari Universitas Negeri Sebelas Maret (UNS) pada 1986;\n
+        Mendapatkan gelar Master of Business Administration (MBA) dari University of Colorado pada 1997.
+    </string>
+    <string name="jabatan_dewas5_1">
+        2018 – sekarang menjabat sebagai Direktur Sistem Manajemen Investasi (SMI), Direktorat Jenderal Perbendaharaan, Kementerian Keuangan;
+    </string>
+    <string name="jabatan_dewas5_2">
+        2014 – 2018 menjabat sebagai Direktur Pembinaan Pengelolaan Keuangan Badan Layanan Umum (PPKBLU), Direktorat Jenderal Perbendaharaan, Kementerian Keuangan;
+    </string>
+    <string name="jabatan_dewas5_3">
+        2013 – 2014 menjabat sebagai Tenaga Pengkaji Bidang Perbendaharaan, Direktorat Jenderal Perbendaharaan, Kementerian Keuangan;
+    </string>
+    <string name="jabatan_dewas5_4">
+        2011 – 2013 menjabat sebagai Kepala Biro Riset dan Teknologi Informasi Badan Pengawas Pasar Modal dan Lembaga Keuangan (Bapepam-LK), Kementerian Keuangan;
+    </string>
+    <string name="jabatan_dewas5_5">
+        2006 – 2011 menjabat sebagai Kepala Biro Pengelolaan Investasi Badan Pengawas Pasar Modal dan Lembaga Keuangan (Bapepam-LK), Kementerian Keuangan.
+    </string>
+
+    <string name="visi">
+        Menjadi perusahaan berkelas dunia di bidang integrated security printing and system.
+    </string>
+    <string name="misi">
+        Menghasilkan produk berkualitas dan bernilai sekuriti tinggi kebanggaan bangsa.
+    </string>
+
+    <string name="tata_nilai">
+        Insan Peruri harus memiliki Spirit untuk "Menjadi yang Terbaik". Menjadi yang terbaik adalah lebih kepada dorongan hati (heart), dorongan jiwa dan dorongan semangat untuk selalu berprestasi dan memberikan kontribusi maksimal kepada perusahaan. Spirit merupakan soft aspect dari sebuah organisasi yang tujuannya untuk membentuk karakter. Oleh karena itu spirit berkaitan dengan motivasi tinggi yang terbentuk dari keyakinan dasar (basic belief), nilai-nilai inti (core values) dan perilaku yang utama. Di dalam konteks kepemimpinan, spirit lebih fokus kepada managing people, yaitu bagaimana memimpin dan berinteraksi dengan setiap orang.
+        Seluruh pimpinan di Peruri perlu memiliki Strategi yang tepat berdasarkan kepada "Imaginasi - Fokus - Aksi" (IFA) untuk membawa perusahaan ini terbang tinggi. Di dalam menetapkan strategi, kita dituntut untuk mempunyai kemampuan membuat perencanaan jauh ke depan (imagine) yang bentuknya berupa Rencana Jangka Panjang Perusahaan (RJPP) tetapi harus fokus kepada "Empat Pilar Bisnis dan Lima Inisiatif Strategi" agar aksi dalam bentuk RKAP bisa kita laksanakan sesuai panduan yang benar dan akurat.
+        Spirit yang bergelora dan strategi yang akurat akan sukses jika dilandasi oleh filosofi kerja yang sudah melekat di seluruh jiwa insan Peruri, yaitu "Totalitas dalam Bekerja dengan Antusias yang Tinggi". Berdasarkan referensi dari berbagai sumber, pengertian filosofi adalah anggapan, pandangan hidup, sikap batin paling umum yangn dimiliki oleh seseorang atau sekelompok orang/masyarakat. Di dalam kaitan itu, totalitas dan antusias sudah merupakan pandangan umum dan sikap batin insan Peruri karena sudah melekat di dalam hati dan pikiran kita, artinya semua itu telah menjadi panduan perilaku yang timbul dari kesadaran diri sendiri.
+    </string>
+
+    <string name="peruri_way">
+        Filosofi kerja secara totalitas dan antusias perlu didukung oleh "Tata Nilai INSTINK", yaitu Integritas, Sekuriti, Teamwork, Inovasi dan Kualitas. Guna mendukung implementasi Tata Nilai maka diperlukan "Moto" yang mudah diingat, gampang dilaksanakan dan menjadi pelengkap dari karakter insan Peruri, yaitu "Cergas - Cepat - Cermat - Cerdas - Ceria". Kita sebut saja supaya mudah, bahwa Moto Peruri adalah "5C". Berikut disampaikan makna dari 5 C tersebut sebagai berikut:
+    </string>
+    <string name="cergas">
+        <b>Cergas</b> itu tangkas dan giat, gesit dan cekatan. Seseorang akan mudah dilihat dan dipahami tingkah lakunya karena ia bekerja dengan tangkas, giat, gesit dan cekatan sehingga menjadi tumpuan organisasi di tempatnya bekerja. Karakter orang seperti ini akan mudah dikenali karena ia selalu bekerja dengan semangat yang menyala-nyala;
+    </string>
+
+    <string name="cepat">
+        <b>Cepat</b> itu lekas, segera atau dalam waktu singkat. Cepat di dalam pengertian cara kerja Peruri adalah bertindak segera di dalam setiap menyelesaikan pekerjaan maupun melakukan eksekusi pada waktu singkat untuk mencapai tujuan perusahaan;
+    </string>
+
+    <string name="cermat">
+        <b>Cermat</b> itu teliti, hati-hati, penuh minat, sungguh-sungguh, seksama. Peruri sebagai perusahaan yang bergerak di bisnis security printing, tentunya sangat mengharapkan SDM yang bekerja dengan cermat karena secara filosofi kerja, perusahaan ini harus dikelola dengan tingkat pengamanan (security) yang tinggi. Tingkat pengamanan yang tinggi itu dapat diperoleh secara self censor dari semua karyawan Peruri karena itu sudah merupakan bagian penting dari sisi hidupnya;
+    </string>
+
+    <string name="cerdas">
+        <b>Cerdas</b> itu sempurna perkembangan akal budinya untuk berfikir, mengerti dengan memiliki pemikiran yang tajam. Cerdas di sini mempunyai lingkup cerdas secara emosional, cerdas secara intelektual dan cerdas secara spiritual. Dalam konteks ini maka integritas, inovasi dan kualitas sebagai filosofi dari Peruri terangkum di dalamnya. Oleh karena itu insan Peruri yang cerdas adalah insan Peruri yang bertanggung jawab dan bertaqwa kepada Tuhan Yang Maha Esa;
+    </string>
+
+    <string name="ceria">
+        <b>Ceria</b> itu bersih, suci, murni, berseri-seri, bersinar, cerah. Hanya orang-orang ceria yang mampu bekerja secara antusias dan mempunyai team work yang solid. Ingat, kita bekerja di lingkungan Obyek Vital Nasional sehingga filosofi antusias dan soliditas mempunyai makna yang sangat penting. Oleh karena itu marilah kita bekerja dengan ceria seraya mensyukuri nikmat yang sudah diberikan Tuhan kepada kita.
+    </string>
+
+    <string name="integraf">
+        Sertifikasi ini diperoleh sebagai bukti bahwa Peruri telah memenuhi standar internasional penerapan Management of Security Printing Processes. Standar ISO 14298:2013 merupakan penyempurnaan dari standar High Security Management System for Secure Printing CWA 14641:2009.
+        Lingkup proses produksi Uang Kertas (Banknotes) dan produksi Kertas Berharga Non Uang (Dokumen Sekuriti) Peruri telah berstandar Governmental Level.\n
+        Badan pemberi: INTERGRAF (The European Federation for Print and Digital Communication)\n
+        Waktu diperoleh : 22 Januari 2016 (Banknotes) 12 Mei 2016 (Dokumen Sekuriti)\n
+        Masa berlaku : 27 Oktober 2021
+    </string>
+
+    <string name="ohsas">
+        Sertifikasi ini diperoleh sebagai bukti bahwa Peruri telah memenuhi standar internasional penerapan Sistem Manajemen Kesehatan dan Keselamatan Kerja (SMK3). Peruri telah tersertifikasi standar internasional SMK3 sejak 20 Maret 2013.\n
+        Badan pemberi: PT Société Générale de Surveillance (SGS) Indonesia\n
+        Waktu diperoleh : 12 Oktober 2018\n
+        Masa berlaku : 11 Maret 2021
+    </string>
+
+    <string name="iso14000">
+        Sertifikasi ini diperoleh sebagai bukti bahwa Peruri telah memenuhi standar internasional penerapan Sistem Manajemen Lingkungan (SML). Peruri telah tersertifikasi standar internasional SML sejak 6 Maret 2013.\n
+        Badan pemberi : PT Société Générale de Surveillance (SGS) Indonesia\n
+        Waktu diperoleh : 6 Maret 2019\n
+        Masa berlaku : 6 Maret 2022
+    </string>
+
+    <string name="iso9000">
+        Sertifikasi ini diperoleh sebagai bukti bahwa Peruri telah memenuhi standar internasional penerapan Sistem Manajemen Mutu (SMM). Peruri telah tersertifikasi standar internasional SMM sejak 24 Februari 1998.\n
+        Badan pemberi: PT Société Générale de Surveillance (SGS) Indonesia\n
+        Waktu diperoleh : 4 Oktober 2018\n
+        Masa berlaku : 7 Agustus 2021
+    </string>
+
+    <string name="sni">
+        Sertifikasi ini diperoleh sebagai bukti bahwa Konsorsium Perum Peruri yang terdiri dari 3 perusahaan, yakni Perum Peruri, PT Kertas Padalarang dan PT Pura Nusapersada telah memenuhi standar internasional Sistem Manajemen Pengamanan Rantai Pasokan dalam lingkup pengadaan pita cukai, diantaranya penyedia kertas banderol, pembuatan hologram dan pelekatannya pada kertas banderol, pencetakan pita cukai dan pengiriman produk pita cukai ke Direktorat Jenderal Bea dan Cukai.\n
+        Badan pemberi : PT Sucofindo\n
+        Waktu diperoleh : 6 Agustus 2018\n
+        Masa berlaku : 5 Agustus 2021
+    </string>
+
+    <string name="kan">
+        Sertifikasi ini diperoleh sebagai bukti bahwa telah memenuhi standar kompetensinya sebagai laboratorium penguji dengan menerapkan secara konsisten Persyaratan Umum untuk Kompetensi Laboratorium Pengujian dan Kalibrasi dengan nomor registrasi LP-1084-IDN.\n
+        Badan pemberi : Komite Akreditasi Nasional;\n
+        Waktu diperoleh : 16 Februari 2017;\n
+        Masa berlaku : 15 Februari 2021.
+    </string>
+
+    <string name="intertek">
+        Sertifikasi ini diperoleh sebagai bukti bahwa Peruri telah memenuhi ketentuan Sistem Manajemen Keamanan Informasi untuk operasional Certificate Authority dan Tanda Tangan Digital (Digital Signatures).\n
+        Badan Pemberi : Intertek\n
+        Waktu Diperoleh : 26 November 2019\n
+        Masa Berlaku : 26 November 2022.
+    </string>
+
+
+    <string name="smp">
+        Sertifikasi Sistem Manajemen Pengamanan\n
+        Sertifikasi ini diperoleh sebagai bukti bahwa Peruri telah memenuhi standar pada elemen-elemen pada Peraturan Kepala Kepolisian Republik Indonesia Nomor 24 Tahun 2007 tentang Sistem Manajemen Pengamanan. Sertifikasi ini menjamin dipenuhinya sistem pengamanan perusahaan dimana Peruri merupakan salah satu objek vital nasional yang harus memiliki sistem pengamanan yang baik.\n
+        Saat ini Peruri telah tersertifikasi pada level Silver yang didapatkan pada 2017.\n
+        Badan pemberi : Kepolisian Republik Indonesia\n
+        Waktu diperoleh : 22 Maret 2017\n
+        Masa berlaku : 22 Maret 2020
+    </string>
+
+    <string name="syarat_kunjungan1">
+        Mengajukan surat permohonan resmi (Kop Surat, Nama, Alamat dan No. Telpon) ke Peruri cq. Head of Corporate Secretary, minimal 6 (enam) bulan sebelumnya;
+    </string>
+    <string name="syarat_kunjungan2">
+        Jadwal Kunjungan ditentukan oleh pihak Peruri;
+    </string>
+    <string name="syarat_kunjungan3">
+        Jumlah peserta Kunjungan min 20 orang s.d maksimal 30 orang;
+    </string>
+    <string name="syarat_kunjungan4">
+        Tinggi peserta kunjungan minimal 150cm dan atau minimal SMA/SMK.
+    </string>
+
+    <string name="kewajiban_kunjungan1">
+        Ketua rombongan/ penanggung jawab mengisi surat tamu yang disediakan oleh petugas keamanan;
+    </string>
+    <string name="kewajibang_kunjungan2">
+        Memakai ID-card yang diberikan petugas keamanan selama kunjungan berlangsung.
+    </string>
+
+    <string name="larangan_kunjungan1">
+        Membawa senjata Api, Senjata Tajam dan Bahan Berbahaya;
+    </string>
+    <string name="larangan_kunjungan2">
+        Membawa alat potret/camera/ tustel, camera video, hand phone dan hanya boleh meliput obyek-obyek yang telah ditentukan;
+    </string>
+    <string name="larangan_kunjungan3">
+        Membawa semua jenis Uang Kertas dan Uang Logam Bank Indonesia, produk buatan Peruri (khusus kunjungan di lokasi produksi);
+    </string>
+    <string name="larangan_kunjungan4">
+        Merokok, makan, minum, kecuali pada tempat yang diperbolehkan;
+    </string>
+    <string name="larangan_kunjungan5">
+        Mengenakan celana jeans, celana pendek, kaos dan sandal.
+    </string>
+
+    <string name="lain1">
+        Kendaraan tidak diperbolehkan masuk areal perusahaan, kecuali ada ijin dari Peruri;
+    </string>
+    <string name="lain2">
+        Kunjungan hanya diperbolehkan pada tempat-tempat yang telah ditentukan oleh Direksi;
+    </string>
+    <string name="lain3">
+        Mengkonfirmasikan perubahan jumlah dan waktu kunjungan secara tertulis ke Biro Komunikasi Perusahaan minimal 1 (satu) minggu sebelum kedatangan;
+    </string>
+    <string name="lain4">
+        Apabila keadaan mendesak dan dipandang perlu, bersedia untuk diadakan pemeriksanaan oleh Petugas Pengamanan;
+    </string>
+    <string name="lain5">
+        Informasi lebih lanjut dapat menghubungi Biro Komunikasi Peruri Telp 021-7395000 ext 1112/1121; Fax. 021-722156.
+    </string>
+
+    <string name="produk_uang">
+        Berdasarkan Peraturan Pemerintah (PP) Nomor: 06 tahun 2019, Peruri memiliki tugas utama untuk mencetak uang Republik Indonesia sesuai pesanan dari Bank Indonesia. Dalam pencetakan uang kertas, Peruri menerapkan Standar Operasional Prosedur yang berpengaman tinggi untuk menjamin keamanan dan kerahasiaan proses cetak uang, mulai dari proses desain uang, penyediaan kertas, tinta maupun proses cetaknya hingga akhirnya menjadi uang Rupiah siap edar yang memiliki beberapa fitur pengaman. Fitur pengamanan yang dikenal luas oleh masyarakat pada uang kertas adalah penggunaan watermark, cetak intaglio, benang pengaman dan tinta sekuriti. Selain fitur-fitur sekuriti yang mudah dikenali oleh masyarakat umum tersebut juga diterapkan unsur pengaman tidak kasat mata yang hanya dapat diketahui melalui bantuan alat maupun oleh petugas laboratorium atau forensik. Untuk uang logam, fitur pengamanannya lebih menonjolkan aspek kerumitan desain dan detail hasil cetak.
+    </string>
+
+    <string name="uang_seribu">
+        Bagi Peruri, kepuasan pelanggan merupakan salah satu hal yang mutlak dan indikator keberhasilan perusahaan. Untuk itu Peruri selalui mengembangkan tingkat pengamanan...
+    </string>
+
+    <string name="uang_duapuluhribu">
+        Uang Kertas Pecahan  Rp. 20.000, Rp. 50.000 dan Rp. 100.000 memiliki fitur sekuriti yang lebih tinggi dibandingkan uang kertas pecahan lainnya. Pencetakan dua pecahan ini memerlukan...
+    </string>
+
+    <string name="uang_koin">
+        Ukuran pengamanan atau sekuriti pada cetakan uang logam berbeda dengan uang kertas yang memiliki banyak fitur. Aspek sekuriti pencetakan uang logam pada prinsipnya lebih banyak ditentukan oleh kualitas bahan, kerumitan desain dan ketajaman pencetakan.
+    </string>
+    <string name="selengkapnya"><u>Selengkapnya...</u></string>
+
+    <string name="keterangan_duit">
+        Bagi Peruri, kepuasan pelanggan merupakan salah satu hal yang mutlak dan indikator keberhasilan perusahaan. Untuk itu Peruri selalui mengembangkan tingkat pengamanan yang melekat pada setiap produk, mulai dari kertas, desain, tinta bahkan teknik cetak uang. Masyarakat umum biasanya hanya mengenal fitur pengamanan yang kasat mata, padahal banyak fitur pengamanan tidak kasat mata yang hanya bisa dilihat dengan alat bantu maupun penelitian laboratorium forensik.
+    </string>
+    <string name="emisi">Tahun Emisi</string>
+    <string name="ukuran">Ukuran</string>
+    <string name="deskripsi">Deskripsi</string>
+    <string name="keterangan_seribu">
+        Uang kertas pecahan Rp. 1.000 memiliki gambar utama tokoh Pahlawan Nasional Kapitan Pattimura dengan bagian belakang Pulau Maitara dan Tidore dengan dominasi warna hijau dan biru. Uang pecahan ini memiliki beberapa unsur pengamanan berupa tanda air bergambar pahlawan nasional, benang pengaman, dan visible ink yang akan memendar dengan bantuan alat.
+    </string>
+    <string name="keterangan_duaribu">
+        Uang kertas pecahan Rp. 2.000 memiliki gambar utama tokoh Pahlawan Nasional Pangeran Antasari dengan bagian belakang tarian adat dayak. Dengan dominasi warna abu-abu, uang pecahan ini memiliki beberapa unsur pengamanan berupa tanda air bergambar pahlawan nasional, benang pengaman, dan visible ink yang akan memendar dengan bantuan alat.
+    </string>
+    <string name="keterangan_goceng">
+        Uang kertas pecahan Rp. 5.000 yang memiliki dominasi warna hijau dan coklat dengan gambar utama tokoh pahlawan nasional asal Provinsi Aceh Tuanku Imam Bondjol sedangkan pada bagian belakang terdapat gambar pengrajin tenun. Unsur pengamanan yang terdapat pada pecahan ini yaitu: tanda air bergambar Cut Nyak Meuthia yang akan terlihat apabila diterawang, tulisan mikro bertulisakan “Bank Indonesia” yang akan terlihat hanya dengan alat bantu dan benang pengaman yang tertanam di dalam kertas yang akan memendar dibawah sinar UV.
+    </string>
+    <string name="keterangan_ceban">
+        Uang Kertas Pecahan Rp. 10.000 memiliki dominasi warna ungu kebiruan dengan desain gambar utama tokoh pahlawan nasional Sultan Mahmud Badaruddin II sedangkan pada bagian belakang rumah adat limas berasal dari daerah Palembang. Unsur pengaman yang terdapat pada uang pecahan ini salah satunya yaitu Rainbow Printing dimana dalam satu bidang tertentu dapat berubah warna apabila dilihat dengan sudut tertentu.
+    </string>
+
+    <string name="keterangan_duit1">
+        Uang Kertas Pecahan  Rp. 20.000, Rp. 50.000 dan Rp. 100.000 memiliki fitur sekuriti yang lebih tinggi dibandingkan uang kertas pecahan lainnya. Pencetakan dua pecahan ini memerlukan ketelitian khusus dan menggunakan mesin off-set simultan yang mampu mencetak gambar depan dan belakang secara bersamaan dengan tingkat presisi yang tinggi. Dengan teknik ini dapat dihasilkan unsur pengamanan rectoverso, yakni dua gambar yang berbeda di dua sisi berlawanan tetapi apabila diterawang membentuk suatu kesatuan gambar yang utuh. Proses pencetakan dua pecahan ini juga menggunakan teknik cetak intaglio yang akan memberikan hasil cetak timbul pada permukaan kertas uang.
+    </string>
+
+    <string name="keterangan_duapuluhribu">
+        Uang kertas pecahan Rp. 20.000 memiliki dominasi warna hijau dengan gambar utama tokoh pahlawan nasional Oto Iskandar Muda sedangkan pada bagian belakang bergambar pemetik teh di perkebunan. Uang kertas ini memiliki beberapa fitur pengaman, yaitu : Gambar berupa logo BI yang dapat berubah warna apabila dilihat dari sudut tertentu, <i>latent image</i> tulisan BI dan benang pengaman yang berbentuk seperti anyaman yang akan memendar di bawah sinar ultraviolet
+    </string>
+
+    <string name="keterangan_gocap">
+        Uang kertas pecahan Rp. 50.000 memiliki dominasi warna biru dengan gambar utama bagian muka adalah tokoh pahlawan Indonesia yang berasal dari Bali I Gusti Ngurah Rai. Pada bagian belakang uang terdapat gambar salah satu destinasi wisata di Pulau Bali yaitu Danau Beratan dengan Pura Ulundanu. Pada uang kertas ini terdapat tanda air/watermark bergambar sama dengan bagian muka dan blind code yang diperuntukkan bagi orang berkebutuhan khusus.
+    </string>
+    <string name="keterangan_cepek">
+        Uang pecahan Rp. 100.000 memiliki desain gambar utama tokoh proklamasi  Indonesia Ir. Soekarno dan H. Mohammad Hatta di bagian muka dan Gedung DPR/MPR RI di bagian belakang dengan dominasi warna merah. Dalam pencetakan pecahan ini menggunakan teknik cetak intaglio dimana hasil cetakannya akan memunculkan elemen halus sampai tebal yang memberikan kesan kasar apabila diraba. Pecahan ini memiliki unsur pengamanan yang paling tinggi dibanding pecahan lainnya.
+    </string>
+
+    <string name="keterangan_gamonang">
+        Tingkat sekuriti yang melekat pada pencetakan produk logam non uang berbeda dengan produk Peruri lainnya yang memiliki banyak fitur. Aspek sekuriti pencetakan  pada produk logam non uang pada prinsipnya lebih banyak ditentukan oleh kualitas bahan, kerumitan desain dan ketajaman pencetakan. Peruri memiliki beberapa hasil produk logam non uang, yaitu : medali, lencana, plakat, penghargaan masa bakti dan logam emas.
+    </string>
+
+    <string name="lencana">
+        Produk Logam Non Uang (LNU) Peruri yang mengedepankan nilai kualitas dari segi bahan, desain,  hingga proses cetak dalam menciptakan sebuah produk sehingga memberikan kebanggaan untuk digunakan pada sebuah momen pemberian penghargaan. Berbahan dari logam kuningan dan tembaga berbalut sepuhan emas, nikel ,maupun perunggu.
+    </string>
+
+    <string name="memmorative_coin">
+        Menampilkan sisi eksklusivitas dari produk Logam Non Uang (LNU) menghasilkan produk dengan tema tertentu yang disesuaikan dengan fungsi karakter dan pesan yang ingin disampaikan oleh pemesan. Kombinasi bahan logam dengan teknik pewarnaan mendetail menjadi keunggulan yang ditawarkan dari produk Logam Non Uang (LNU) Perum Peruri.
+    </string>
+
+    <string name="medali">
+        Prestisius merupakan salah satu tujuan dari produk Logam Non Uang (LNU) Perum Peruri, dengan menampilkan tingkat relief dari rendah hingga tinggi tanpa mengurangi kualitas dan segi artistik desain yang diaplikasikan pada media logam.
+    </string>
+
+    <string name="plakat">
+        Medali dikombinasikan dengan bingkai melalui proses etsa bermotif seni menghasilkan plakat berkualitas dengan teknik sepuh yang baik sehingga menimbulkan efek sekelas emas  menjadi salah satu produk unggulan Peruri.
+    </string>
+
+    <string name="pin">
+        Sebagai bentuk kebanggaan kepemilikan identitas dari suatu organisasi maupun institusi, Peruri mengolah media logam dengan kombinasi pewarnaan menggunakan fitur sekuriti melalui invisble ink ataupun dengan alternatif berbahan emas.
+    </string>
+
+    <string name="emas">
+        Emas menjadi sebuah produk yang menjadi daya tarik di berbagai kalangan masyarakat melalui tampilannya yang mewah dengan nilai tinggi dan menjadi alat investasi. Peruri mengolah emas tersebut dengan nilai tambah dari segi desain dan bentuk sesuai selera pemesan. Menjaga kualitas dengan mendapat <i>support</i> dari Antam sebagai pemasok berbagai tingkatan emas dari EK 22 , EK 23, EK 24 hingga <i>fine gold.</i>
+    </string>
+
+    <string name="keterangan_tasganu">
+        Peruri juga diberikan amanat oleh pemerintah untuk mencetak dokumen sekuriti negara seperti dokumen keimigrasian, pita cukai, meterai dan dokumen pertanahan atas permintaan instansi yang berwenang. Mengingat produk-produk tersebut merupakan dokumen yang menjadi kebutuhan masyarakat luas dan sangat berkaitan dengan masalah keamanan negara, maka Peruri selalu berinovasi untuk mengembangkan teknologi pengamanan dokumen untuk memberikan kenyamanan bagi pemesannya.
+    </string>
+
+    <string name="keterangan_cukai">
+        Pita Cukai yang dikeluarkan oleh Direktorat Jenderal Bea dan Cukai merupakan bukti pembayaran cukai atas penjualan tembakau berbentuk rokok kretek dan cigarette. Produk yang oleh Direktorat Jenderal Bea dan Cukai dipercayakan pencetakannya ke Peruri tersebut, memiliki unsur sekuriti yang cukup handal dalam rangka meminimalkan pemalsuan. Salah satunya adalah pemberian hologram pada cetakan pita cukai. Pita Cukai dicetak sesuai pesanan dari Direktorat Jenderal Bea dan Cukai, berdasarkan nilai pajak yang dikenakan untuk produk yang terkena pajak.
+    </string>
+    <string name="keterangan_meterai">
+        Meterai Republik Indonesia sebagai salah satu dokumen sekuriti negara yang dipergunakan sebagai tanda keabsahan dan legalitas dokumen surat perjanjian dan penjualan, dikeluarkan oleh Direktorat Jenderal Pajak Republik Indonesia dan pencetakannya dipercayakan kepada  Percetakan Uang RI. Kepercayaan yang diberikan kepada Percetakan Uang RI, mengingat produk dokumen sekuriti yang dicetak oleh Peruri selama ini mengandung unsur-unsur sekuriti feature, diantaranya penggunaan hologram sekuriti dan teknik cetak Intaglio, sebagaimana yang terdapat pada uang kertas Republik Indonesia. Meterai yang dicetak oleh Peruri atas pesanan dari Direktorat Jenderal Pajak Republik Indonesia saat ini bernilai Rp 3.000,- dan Rp 6.000,- .
+    </string>
+    <string name="keterangan_prangko">
+        Prangko merupakan salah satu dokumen wajib memiliki fitur sekuriti yang melekat pada produknya mengingat sifatnya sebagai bukti pelunasan biaya pengiriman dokumen. Secara umum, prangko merupakan secarik kertas bergambar yang mencantumkan nama negara penerbit, tahun penerbitan dan memiliki nominal nilai tertentu. Sampai saat ini Peruri telah mencetak prangko beberapa seri yang diterbitkan oleh PT Pos Indonesia, misalnya: Prangko seri Shio Kambing (2015), Prangko Seri Gerhana Matahari Total dan Prangko Shio Monyet (2016). Peruri juga mencetak prangko yang berfungsi sebagai sarana promosi, misalnya Prangko seri peduli lingkungan hidup. Peruri selalu meningkatkan teknologi dan kapasitas untuk melakukan pencetakan prangko yang sesuai spesifikasi yang dikehendaki oleh konsumen.
+    </string>
+    <string name="keterangan_surat_tanah">
+        Sertifikat tanah yang dikeluarkan oleh Badan Pertanahan Nasional sebagai tanda bukti kepemilikan dan hak seseorang atas tanah adalah salah satu dokumen negara yang vital. Atas dasar itulah Badan Pertanahan Nasional mempercayakan pencetakan dokumen Sertifikat Tanah kepada Peruri. Sertifikat Tanah yang dicetak oleh Peruri mempunyai ciri khusus yang lebih mengutamakan unsur pengamanan (security feature), sehingga dapat memperkecil resiko pemalsuan.
+    </string>
+    <string name="keterangan_paspor">
+        Paspor Republik Indonesia sebagai salah satu dokumen sekuriti negara yang penting atau vital, selama ini digunakan sebagai bukti kewarganegaraan Indonesia bagi pemiliknya dan berfungsi sebagai dokumen pendukung perjalanan khususnya keluar negeri atau antar negara. Direktorat Jenderal Imigrasi Republik Indonesia mempercayakan pencetakan dan pembuatan Paspor Republik Indonesia kepada  Peruri, karena hasil produknya yang selalu mengutamakan unsur sekuriti. Kini Peruri tidak hanya mencetak pesanan Paspor RI dari Direktorat Jenderal Imigrasi Republik Indonesia saja, tetapi juga pesanan Paspor dari Luar Negeri, diantaranya dari Sri Lanka.
+    </string>
+
+    <string name="keterangan_digital">
+        Dalam era globalisasi, teknologi informasi telah menjadi bagian dalam setiap sendi kehidupan masyarakat. Hal tersebut menimbulkan kebutuhan akan suatu sistem pengelolaan informasi yang transparan, real time dan memiliki fitur sekuriti tinggi untuk melindungi suatu produk dari pemalsuan. Guna mengantisipasi kompetisi bisnis yang semakin kompetitif di bidang digital sekuriti, Peruri yang berpengalaman dalam bidang pengamanan dokumen sekuriti milik negara telah melakukan transformasi bisnis di bidang digital security platform yang menjamin keaslian dan keamanan suatu produk demi masa depan yang lebih baik di Indonesia.
+    </string>
+
+    <string name="code">
+        Peruri Code merupakan kode unik yang diproduksi sistem Peruri pada label sekuriti, dokumen dan atau media lainnya untuk menyimpan informasi publik dan ...
+    </string>
+    <string name="sign">
+        Peruri Sign merupakan platform yang dimiliki Peruri untuk menjamin kerahasiaan data (confidentiality), melindungi integritas isi dokumen (data ...
+    </string>
+    <string name="trust">
+        Peruri Trust merupakan platform untuk melakukan end-to-end monitoring dokumen sehingga dapat dipastikan dokumen tersebut tidak mengalami ...
+    </string>
+
+    <string name="detail_code">
+        Peruri Code merupakan kode unik yang diproduksi sistem Peruri pada label sekuriti, dokumen dan atau media lainnya untuk menyimpan informasi publik dan private di dalamnya. Peruri Code memiliki peranan penting untuk penjaminan keaslian (authentication), kontrol distribusi (supply chain) dan penjaga brand image (brand protection) guna mempertahankan dan meningkatkan kepuasan pelanggan terhadap suatu produk komersil. Penerapan Peruri Code dapat diimplementasikan ke beberapa jenis, antara lain:
+    </string>
+    <string name="deskripsi_secure2D">
+        Secure 2D Code merupakan sebuah QR Code yang mengaplikasikan sistem pengamanan secara fisik dan data untuk mencegah pemalsuan produk. Karakteristik dari Secure 2D Code bersifat “anticopy”. Artinya resolusi dari QR Code nya tidak akan sama jika diduplikasi/dicopy sehingga sistem dapat mendeteksi bahwa QR Code tersebut telah dilakukan penggandaan. Selain itu, Secure 2D Code juga dapat berfungsi sebagai “data security”  untuk memberikan protection datanya sehingga hanya bisa diakses melalui aplikasi.
+    </string>
+    <string name="penerapan">Penerapan</string>
+    <string name="detail_penerapan">
+        <b><i>Fast Moving Consumer Goods,\n</i></b>
+        <b><i>Agriculture,\n</i></b>
+        <b><i>Manufacturing,\n</i></b>
+        <b><i>Industri lainnya.</i></b>
+    </string>
+    <string name="manfaat">Manfaat</string>
+    <string name="detail_manfaat">
+        Mencegah pemalsuan produk,\n
+        Meningkatkan kepuasan pelanggan,\n
+        Mendapatkan data pendukung produk.
+    </string>
+    <string name="deskripsi_sqrc">
+        SQRC merupakan QR Code yang berisi mengenai informasi suatu produk sebagai salah satu fitur untuk melakukan pengamanan keaslian produk atau barang. Fitur sekuriti SQRC menyimpan informasi public dan private sehingga dapat memberikan jaminan bahwa dokumen yang di enkripsi telah aman (secure) sejak pertama kali QR Code di-generate.
+    </string>
+    <string name="penerapan_sqrc">
+        Multi Industri\n
+        Banking dan Multi Finance\n
+        Secure document (penjaminan online).
+    </string>
+    <string name="manfaat_sqrc">
+        Mencegah adanya pemalsuan dokumen atau produk\n
+        Kontrol terhadap distribusi produk (real time monitoring)
+    </string>
+    <string name="deskripsi_nano">
+        Nano ID merupakan  teknologi keamanan fisik yang berisi data penggabungan antara nano teknologi, fotonik dan secure digital technology. Penerapan fitur sekuriti Nano ID dapat dibubuhkan (embedded) ke dalam material yang memiliki fitur keamanan tersembunyi dan tidak terlihat oleh kasat mata sehingga tidak akan dapat diduplikasi atau dimanipulasi.
+    </string>
+    <string name="penerapan_nano">
+        Dokumen berharga atau bernilai uang,\n
+        Card dan ID Card,\n
+        Packaging.
+    </string>
+    <string name="manfaat_nano">
+        Mencegah adanya perubahan, penduplikasian dan pemalsuan,\n
+        Memastikan legitimasi dan integritas dokumen.
+    </string>
+    <string name="deskripsi_rfid">
+        RFID merupakan teknologi pengumpulan data otomatis yang menggunakan gelombang frekuensi radio untuk mentransfer data antara reader dan tag yang memiliki jarak jangkauan yang beragam mulai dari 10 cm sampai dengan di atas 100 m.
+    </string>
+    <string name="penerapan_rfid">
+        RFID mudah ditanam di berbagai media/objek dan device untuk membantu proses pelacakan (track and trace).
+    </string>
+    <string name="manfaat_rfid">
+        Manajemen aset,\n
+        Meningkatkan efisiensi proses supply chain,\n
+        Memastikan kepatuhan proses kerja.
+    </string>
+    <string name="deskripsi_nfc">
+        NFC merupakan sebuah teknologi berbasis wireless yang memungkinkan pengguna untuk melakukan pertukaran data secara cepat pada jarak yang dekat (peer to peer). NFC menggunakan gelombang radio untuk mengirim dan menerima data, bila antar perangkat yang memiliki NFC didekatkan maka perangkat tersebut dapat melakukan transaksi antar perangkat (dapat sebagai reader dan tag).
+    </string>
+    <string name="penerapan_nfc">
+        Transfer data pada smartphone,\n
+        Transaksi uang elektronik,\n
+        Absensi dan e-ticketing.
+    </string>
+    <string name="manfaat_nfc">
+        Mempermudah berbagai jenis transaksi data jarak dekat (contactless),\n
+        Efisiensi waktu dan easy access ke berbagai platform digital yang dibutuhkan.
+    </string>
+    <string name="iot">Peruri Code memanfaatkan penggunaan teknologi IoT (Internet of Things).</string>
+
+    <string name="detail_sign">
+        Peruri Sign merupakan platform yang dimiliki Peruri untuk menjamin kerahasiaan data (confidentiality), melindungi integritas isi dokumen (data integrity), menjamin keaslian data (authentication) dan jaminan nirsangkal (non-repudiation) dari suatu dokumen elektronik sehingga dapat diketahui keabsahan dan keasliannya. Berikut merupakan jenis Peruri Sign, yaitu:
+    </string>
+    <string name="deskripsi_sign">
+        Digital signature merupakan tanda tangan yang terdiri atas informasi elektronik yang dilekatkan, terasosiasi atau terkait dengan informasi elektronik lainnya yang digunakan sebagai alat verifikasi dan autentikasi. Fitur sekuriti ini dapat dimanfaatkan sebagai sebuah bukti dari adanya identitas suatu pihak yang dapat menunjukkan subjek hukum pihak tersebut. Digital signature diimplementasikan pada sertifikat elektronik sehingga dokumen elektronik yang ditransaksikan dapat diketahui keabsahan dan keasliannya.
+    </string>
+
+    <string name="peruri_trust">
+        Peruri Trust merupakan platform untuk melakukan end-to-end monitoring dokumen sehingga dapat dipastikan dokumen tersebut tidak mengalami perubahan dan dijamin keabsahan serta keasliannya. Manfaat produk sekuriti Peruri Trust adalah mampu mengelola semua informasi dari suatu dokumen yang disimpan dan dikeluarkan hingga dokumen tersebut disahkan. Peruri Trust memiliki beberapa produk sekuriti, yaitu:
+    </string>
+
+    <string name="sertifikat_elektronik">
+        Merupakan sertifikat bersifat elektronik yang memuat tanda tangan elektronik dan identitas yang menunjukkan status subjek hukum para pihak dalam transaksi elektronik yang dikeluarkan oleh penyelenggara sertifikasi elektronik sehingga dokumen elektronik yang ditransaksikan dapat diketahui keabsahan dan keasliannya. Fitur sekuriti ini memberikan jaminan akan kerahasiaan data atau informasi (confidentiality), melindungi integritas isi dokumen dan transaksi elektronik (data integrity), menjamin keaslian isi dokumen yang diverifikasi secara online kepada certification authority (authentication) dan memiliki jaminan nirsangkal (non-repudiation).
+    </string>
+
+    <string name="track_trace">
+        Merupakan suatu sistem untuk label keamanan yang dikembangkan oleh Peruri untuk mengetahui kondisi secara real time atau history posisi untuk menjamin keaslian suatu produk atau property.
+    </string>
+
+    <string name="gov_solution">
+        Peruri sebagai government services menyediakan solusi digital security untuk government dan public.
+    </string>
+    <string name="digilocker">
+        Merupakan loker digital yang dapat menyimpan dan mengelola dokumen berharga dengan aman, mudah (dari sisi penggunaan dan akses), serta dapat diakses sesuai segmentasi pengguna (subscriber, issuer dan requester). Layanan Digital Locker meliputi penyimpanan, sharing dan verifikasi dokumen berharga yang efektif dan efisien.
+    </string>
+    <string name="penjaminan_online">
+        Penjaminan Online merupakan platform untuk melayani proses pembuatan jaminan tertulis yang dikeluarkan oleh bank atau asuransi atas permintaan pemohon dan diberikan kepada penerima sebagai jaminan bahwa pemohon dapat menjalankan kewajibannya. Layanan ini menggunakan teknologi SQRC yang dibubuhkan pada dokumen perjanjian jaminan yang dikeluarkan oleh bank untuk memastikan bahwa dokumen tersebut asli dan tidak dapat dipalsukan oleh pihak pemohon jaminan.
+    </string>
+    <string name="track_and_trace">Track and Trace</string>
+    <string name="certificate_authority">Certificate Authority (Sertifikat Elektronik)</string>
+    <string name="e_gov">Government Solution</string>
+    <string name="doc_man">Document Management</string>
+    <string name="man_doc">Layanan Peruri dalam bidang pengelolaan dokumen berharga yang terintegrasi dan aman (secure) untuk menunjang keperluan sehari-hari.</string>
+    <string name="a_digital_locker">a. Digital Locker</string>
+    <string name="b_penjaminan_online">b. Penjaminan Online</string>
+
+</resources>

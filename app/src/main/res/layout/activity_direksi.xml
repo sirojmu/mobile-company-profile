@@ -1,0 +1,866 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/main_background"
+    tools:context=".profil.Direksi">
+
+    <Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:titleTextColor="@android:color/white"
+        android:background="#00ACC1">
+    </Toolbar>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none"
+        android:background="@drawable/main_background"
+        android:clipToPadding="false">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/img_dirut"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/budirut"/>
+
+            <TextView
+                android:id="@+id/txt_dirut"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/img_dirut"
+                android:text="Dwina S. Wijaya"
+                android:layout_marginTop="10dp"
+                android:textSize="18sp"
+                android:textColor="@android:color/black"
+                android:gravity="center"/>
+            <TextView
+                android:id="@+id/txtdirut"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txt_dirut"
+                android:text="Direktur Utama"
+                android:textStyle="italic"
+                android:textSize="15sp"
+                android:textColor="@android:color/black"
+                android:gravity="center"/>
+            <TextView
+                android:id="@+id/biografidirut"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_below="@+id/txtdirut"
+                android:text="Biografi: "
+                android:textSize="15sp"
+                android:textColor="@android:color/black"
+                android:gravity="start"/>
+
+            <com.codesgood.views.JustifiedTextView
+                android:id="@+id/profildirut"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/biografidirut"
+                android:layout_margin="5dp"
+                android:gravity="start"
+                android:padding="3dp"
+                android:textColor="@android:color/black"
+                android:text="@string/profile_dirut"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/txtjabatandirut"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_below="@+id/profildirut"
+                android:text="Riwayat Jabatan: "
+                android:textSize="15sp"
+                android:textColor="@android:color/black"
+                android:gravity="start"/>
+            <TableLayout
+                android:layout_margin="5dp"
+                android:layout_below="@+id/txtjabatandirut"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TableRow
+                    android:padding="3dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    android:text="1." />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="@android:color/black"
+                    android:text="@string/jabatandirut1" />
+                </TableRow>
+                <TableRow
+                    android:padding="3dp">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    android:text="2." />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="@android:color/black"
+                    android:text="@string/jabatandirut2" />
+                </TableRow>
+                <TableRow
+                    android:padding="3dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    android:text="3." />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="@android:color/black"
+                    android:text="@string/jabatandirut3" />
+                </TableRow>
+                <TableRow
+                    android:padding="3dp">
+                <TextView
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    android:text="4." />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="@android:color/black"
+                    android:text="@string/jabatandirut4" />
+                </TableRow>
+                <TableRow
+                    android:padding="3dp">
+                <TextView
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    android:text="5." />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="@android:color/black"
+                    android:text="@string/jabatandirut5" />
+                </TableRow>
+                <TableRow
+                    android:padding="3dp">
+                <TextView
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:textAlignment="center"
+                    android:text="6." />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="@android:color/black"
+                    android:text="@string/jabatandirut6" />
+                </TableRow>
+                <TableRow
+                    android:padding="3dp">
+                <TextView
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    android:text="7."/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="@android:color/black"
+                    android:text="@string/jabatandirut7" />
+                </TableRow>
+                <TableRow
+                    android:padding="5dp">
+                <TextView
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:textAlignment="center"
+                    android:text="8." />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="@android:color/black"
+                    android:text="@string/jabatandirut8" />
+                </TableRow>
+            </TableLayout>
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/img_dirops"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/dirops"/>
+            <TextView
+                android:id="@+id/txt_dirops"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/img_dirops"
+                android:text="@string/nama_dirops"
+                android:layout_marginTop="10dp"
+                android:textSize="18sp"
+                android:textColor="@android:color/black"
+                android:gravity="center"/>
+            <TextView
+                android:id="@+id/txtdirops"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txt_dirops"
+                android:text="Direktur Operasi"
+                android:textStyle="italic"
+                android:textSize="15sp"
+                android:textColor="@android:color/black"
+                android:gravity="center"/>
+            <TextView
+                android:id="@+id/biografidirops"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_below="@+id/txtdirops"
+                android:text="Biografi: "
+                android:textSize="15sp"
+                android:textColor="@android:color/black"
+                android:gravity="start"/>
+            <com.codesgood.views.JustifiedTextView
+                android:id="@+id/profildirops"
+                android:padding="3dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_below="@+id/biografidirops"
+                android:text="@string/profile_dirops"
+                android:textSize="14sp"
+                android:textColor="@android:color/black"
+                android:gravity="start"/>
+            <TextView
+                android:id="@+id/txtjabatandirops"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_below="@+id/profildirops"
+                android:text="Riwayat Jabatan: "
+                android:textSize="15sp"
+                android:textColor="@android:color/black"
+                android:gravity="start"/>
+            <TableLayout
+                android:layout_margin="5dp"
+                android:layout_below="@+id/txtjabatandirops"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TableRow
+                    android:padding="3dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    android:text="1." />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="@android:color/black"
+                    android:text="@string/jabatandirops1" />
+                </TableRow>
+                <TableRow
+                    android:padding="3dp">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    android:text="2." />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="@android:color/black"
+                    android:text="@string/jabatandirops2" />
+                </TableRow>
+                <TableRow
+                    android:padding="3dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    android:text="3." />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="@android:color/black"
+                    android:text="@string/jabatandirops3" />
+                </TableRow>
+                <TableRow
+                    android:padding="3dp">
+                <TextView
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    android:text="4." />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="@android:color/black"
+                    android:text="@string/jabatandirops4" />
+                </TableRow>
+                <TableRow
+                    android:padding="3dp">
+                <TextView
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    android:text="5." />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="@android:color/black"
+                    android:text="@string/jabatandirops5" />
+                </TableRow>
+                <TableRow
+                    android:padding="3dp">
+                <TextView
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    android:text="6." />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="@android:color/black"
+                    android:text="@string/jabatandirops6" />
+                </TableRow>
+                <TableRow
+                    android:padding="3dp">
+                <TextView
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    android:text="7."/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="@android:color/black"
+                    android:text="@string/jabatandirops7" />
+                </TableRow>
+            </TableLayout>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/img_dirkeu"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/dirkeu"/>
+            <TextView
+                android:id="@+id/txt_dirkeu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/img_dirkeu"
+                android:text="@string/nama_dirkeu"
+                android:layout_marginTop="10dp"
+                android:textSize="18sp"
+                android:textColor="@android:color/black"
+                android:gravity="center"/>
+            <TextView
+                android:id="@+id/txtdirkeu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txt_dirkeu"
+                android:text="Direktur Keuangan"
+                android:textStyle="italic"
+                android:textSize="15sp"
+                android:textColor="@android:color/black"
+                android:gravity="center"/>
+            <TextView
+                android:id="@+id/biografidirkeu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_below="@+id/txtdirkeu"
+                android:text="Biografi: "
+                android:textSize="15sp"
+                android:textColor="@android:color/black"
+                android:gravity="start"/>
+            <com.codesgood.views.JustifiedTextView
+                android:id="@+id/profildirkeu"
+                android:padding="3dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_below="@+id/biografidirkeu"
+                android:textColor="@android:color/black"
+                android:text="@string/profile_dirkeu"
+                android:textSize="14sp"
+                android:gravity="start"/>
+            <TextView
+                android:id="@+id/txtjabatandirkeu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_below="@+id/profildirkeu"
+                android:text="Riwayat Jabatan: "
+                android:textSize="15sp"
+                android:textColor="@android:color/black"
+                android:gravity="start"/>
+            <TableLayout
+                android:layout_margin="5dp"
+                android:layout_below="@+id/txtjabatandirkeu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TableRow
+                    android:padding="3dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    android:text="1." />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="@android:color/black"
+                    android:text="@string/jabatandirkeu1" />
+                </TableRow>
+                <TableRow
+                    android:padding="3dp">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    android:text="2." />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="@android:color/black"
+                    android:text="@string/jabatandirkeu2" />
+                </TableRow>
+                <TableRow
+                    android:padding="3dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    android:text="3." />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="@android:color/black"
+                    android:text="@string/jabatandirkeu3" />
+                </TableRow>
+                <TableRow
+                    android:padding="3dp">
+                <TextView
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    android:text="4." />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="@android:color/black"
+                    android:text="@string/jabatandirkeu4" />
+                </TableRow>
+                <TableRow
+                    android:padding="3dp">
+                <TextView
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    android:text="5." />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="@android:color/black"
+                    android:text="@string/jabatandirkeu5" />
+                </TableRow>
+                <TableRow
+                    android:padding="3dp">
+                <TextView
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    android:text="6." />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="@android:color/black"
+                    android:text="@string/jabatandirkeu6" />
+                </TableRow>
+            </TableLayout>
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/img_dirsdm"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/dirsdm"/>
+
+            <TextView
+                android:id="@+id/txt_dirsdm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/img_dirsdm"
+                android:text="@string/nama_dirsdm"
+                android:layout_marginTop="10dp"
+                android:textSize="18sp"
+                android:textColor="@android:color/black"
+                android:gravity="center"/>
+            <TextView
+                android:id="@+id/txtdirsdm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txt_dirsdm"
+                android:text="Direktur SDM dan Umum"
+                android:textStyle="italic"
+                android:textSize="15sp"
+                android:textColor="@android:color/black"
+                android:gravity="center"/>
+            <TextView
+                android:id="@+id/biografidirsdm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_below="@+id/txtdirsdm"
+                android:text="Biografi: "
+                android:textSize="15sp"
+                android:textColor="@android:color/black"
+                android:gravity="start"/>
+            <com.codesgood.views.JustifiedTextView
+                android:id="@+id/profildirsdm"
+                android:padding="3dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textColor="@android:color/black"
+                android:layout_below="@+id/biografidirsdm"
+                android:text="@string/profile_dirsdm"
+                android:textSize="14sp"
+                android:gravity="start"/>
+            <TextView
+                android:id="@+id/txtjabatandirsdm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_below="@+id/profildirsdm"
+                android:text="Riwayat Jabatan: "
+                android:textSize="15sp"
+                android:textColor="@android:color/black"
+                android:gravity="start"/>
+            <TableLayout
+                android:layout_margin="5dp"
+                android:layout_below="@+id/txtjabatandirsdm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TableRow
+                    android:padding="3dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    android:text="1." />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="@android:color/black"
+                    android:text="@string/jabatandirsdm1" />
+                </TableRow>
+                <TableRow
+                    android:padding="3dp">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    android:text="2." />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="@android:color/black"
+                    android:text="@string/jabatandirsdm2" />
+                </TableRow>
+                <TableRow
+                    android:padding="3dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    android:text="3." />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="@android:color/black"
+                    android:text="@string/jabatandirsdm3" />
+                </TableRow>
+                <TableRow
+                    android:padding="3dp">
+                <TextView
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    android:text="4." />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="@android:color/black"
+                    android:text="@string/jabatandirsdm4" />
+                </TableRow>
+                <TableRow
+                    android:padding="3dp">
+                <TextView
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    android:text="5." />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="@android:color/black"
+                    android:text="@string/jabatandirsdm5" />
+                </TableRow>
+                <TableRow
+                    android:padding="3dp">
+                <TextView
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    android:text="6." />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="@android:color/black"
+                    android:text="@string/jabatandirsdm6" />
+                </TableRow>
+                <TableRow
+                    android:padding="3dp">
+                <TextView
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    android:text="7." />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="@android:color/black"
+                    android:text="@string/jabatandirsdm7" />
+                </TableRow>
+            </TableLayout>
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/img_dirpeng"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/dirpeng"/>
+
+            <TextView
+                android:id="@+id/txt_dirpeng"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/img_dirpeng"
+                android:text="@string/nama_dirpeng"
+                android:layout_marginTop="10dp"
+                android:textSize="18sp"
+                android:textColor="@android:color/black"
+                android:gravity="center"/>
+            <TextView
+                android:id="@+id/txtdirpeng"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txt_dirpeng"
+                android:text="Direktur Pengembangan Usaha"
+                android:textStyle="italic"
+                android:textSize="15sp"
+                android:textColor="@android:color/black"
+                android:gravity="center"/>
+            <TextView
+                android:id="@+id/biografidirpeng"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_below="@+id/txtdirpeng"
+                android:text="Biografi: "
+                android:textSize="15sp"
+                android:textColor="@android:color/black"
+                android:gravity="start"/>
+            <com.codesgood.views.JustifiedTextView
+                android:id="@+id/profildirpeng"
+                android:padding="3dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textColor="@android:color/black"
+                android:layout_below="@+id/biografidirpeng"
+                android:text="@string/profile_dirpeng"
+                android:textSize="14sp"
+                android:gravity="start"/>
+            <TextView
+                android:id="@+id/txtjabatandirpeng"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_below="@+id/profildirpeng"
+                android:text="Riwayat Jabatan: "
+                android:textSize="15sp"
+                android:textColor="@android:color/black"
+                android:gravity="start"/>
+            <TableLayout
+                android:layout_margin="5dp"
+                android:layout_below="@+id/txtjabatandirpeng"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TableRow
+                    android:padding="3dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    android:text="1." />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="@android:color/black"
+                    android:text="@string/jabatandirpeng1" />
+                </TableRow>
+                <TableRow
+                    android:padding="3dp">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    android:text="2." />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="@android:color/black"
+                    android:text="@string/jabatandirpeng2" />
+                </TableRow>
+                <TableRow
+                    android:padding="3dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    android:text="3." />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="@android:color/black"
+                    android:text="@string/jabatandirpeng3" />
+                </TableRow>
+                <TableRow
+                    android:padding="3dp">
+                <TextView
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    android:text="4." />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="@android:color/black"
+                    android:text="@string/jabatandirpeng4" />
+                </TableRow>
+            </TableLayout>
+        </RelativeLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

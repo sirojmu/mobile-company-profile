@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/main_background"
+    tools:context=".csr.CaraMenjadiMitra">
+
+    <Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:titleTextColor="@android:color/white"
+        android:background="#00ACC1">
+    </Toolbar>
+
+    <ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+      <TextView
+               android:layout_margin="5dp"
+               android:padding="2dp"
+               android:textColor="@android:color/black"
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:text="Syarar peserta UMKM: "/>
+            <TableLayout
+               android:layout_margin="5dp"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content">
+
+               <TableRow
+                   android:padding="3dp">
+                   <TextView
+                       android:layout_width="30dp"
+                       android:layout_height="wrap_content"
+                       android:textAlignment="center"
+                       android:textColor="@android:color/black"
+                       android:text="1." />
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_weight="1"
+                       android:textColor="@android:color/black"
+                       android:text="@string/syarat_umkm1" />
+               </TableRow>
+               <TableRow
+                   android:padding="3dp">
+                   <TextView
+                       android:layout_width="30dp"
+                       android:layout_height="wrap_content"
+                       android:textAlignment="center"
+                       android:textColor="@android:color/black"
+                       android:text="2." />
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_weight="1"
+                       android:textColor="@android:color/black"
+                       android:text="@string/syarat_umkm2" />
+               </TableRow>
+               <TableRow
+                   android:padding="3dp">
+                   <TextView
+                       android:layout_width="30dp"
+                       android:layout_height="wrap_content"
+                       android:textAlignment="center"
+                       android:textColor="@android:color/black"
+                       android:text="3." />
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_weight="1"
+                       android:textColor="@android:color/black"
+                       android:text="@string/syarat_umkm3" />
+               </TableRow>
+               <TableRow
+                   android:padding="3dp">
+                   <TextView
+                       android:layout_width="30dp"
+                       android:layout_height="wrap_content"
+                       android:textAlignment="center"
+                       android:textColor="@android:color/black"
+                       android:text="4." />
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_weight="1"
+                       android:textColor="@android:color/black"
+                       android:text="@string/syarat_umkm4" />
+               </TableRow>
+               <TableRow
+                   android:padding="3dp">
+                   <TextView
+                       android:layout_width="30dp"
+                       android:layout_height="wrap_content"
+                       android:textAlignment="center"
+                       android:textColor="@android:color/black"
+                       android:text="5." />
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_weight="1"
+                       android:textColor="@android:color/black"
+                       android:text="@string/syarat_umkm5" />
+               </TableRow>
+               <TableRow
+                   android:padding="3dp">
+                   <TextView
+                       android:layout_width="30dp"
+                       android:layout_height="wrap_content"
+                       android:textAlignment="center"
+                       android:textColor="@android:color/black"
+                       android:text="6." />
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_weight="1"
+                       android:textColor="@android:color/black"
+                       android:text="@string/syarat_umkm6" />
+               </TableRow>
+               <TableRow
+                   android:padding="3dp">
+                   <TextView
+                       android:layout_width="30dp"
+                       android:layout_height="wrap_content"
+                       android:textAlignment="center"
+                       android:textColor="@android:color/black"
+                       android:text="7." />
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_weight="1"
+                       android:textColor="@android:color/black"
+                       android:text="@string/syarat_umkm7" />
+               </TableRow>
+           </TableLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kewajiban Peserta:"
+                android:layout_margin="5dp"
+                android:padding="2dp"
+                android:textColor="@android:color/black"/>
+            <TableLayout
+                android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            <TableRow
+                android:padding="3dp">
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    android:text="1." />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="@android:color/black"
+                    android:text="@string/kewajiban_peserta1" />
+            </TableRow>
+            <TableRow
+                android:padding="3dp">
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    android:text="2." />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="@android:color/black"
+                    android:text="@string/kewajiban_peserta2" />
+            </TableRow>
+            <TableRow
+                android:padding="3dp">
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    android:text="3." />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="@android:color/black"
+                    android:text="@string/kewajiban_peserta3" />
+            </TableRow>
+            </TableLayout>
+
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>
+</LinearLayout>
